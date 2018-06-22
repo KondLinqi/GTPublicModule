@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GTPublicModule_Example' do
+  pod 'GTPublicModule', :path => '../'
+
+  target 'GTPublicModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
