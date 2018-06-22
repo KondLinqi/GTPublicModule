@@ -104,7 +104,7 @@ assert(res == 0); \
  *  @param _newSelector 要拿 toClass 里的这个方法来替换 originSelector
  *  @return 是否成功替换（或增加）
  */
-GT_EXTERN bool kObjc_ReplaceMethodInTwoClasses(Class _fromClass, SEL _originSelector, Class _toClass, SEL _newSelector) {
+GT_EXTERN BOOL kObjc_ReplaceMethodInTwoClasses(Class _fromClass, SEL _originSelector, Class _toClass, SEL _newSelector) {
     if (!_fromClass || !_toClass) {
         return NO;
     }
@@ -135,7 +135,7 @@ GT_EXTERN bool kObjc_ReplaceMethodInTwoClasses(Class _fromClass, SEL _originSele
 
 #pragma mark runtime method A -> B
 /// 交换同一个 class 里的 originSelector 和 newSelector 的实现，如果原本不存在 originSelector，则相当于给 class 新增一个叫做 originSelector 的方法
-GT_EXTERN bool kObjc_ReplaceMethod(Class _class, SEL _originSelector, SEL _newSelector) {
+GT_EXTERN BOOL kObjc_ReplaceMethod(Class _class, SEL _originSelector, SEL _newSelector) {
     return kObjc_ReplaceMethodInTwoClasses(_class, _originSelector, _class, _newSelector);
 }
 
@@ -146,7 +146,7 @@ GT_EXTERN bool kObjc_ReplaceMethod(Class _class, SEL _originSelector, SEL _newSe
  *  @param targetSelector 要重写的 class 里的实例方法，注意如果该方法不存在于 targetClass 里，则什么都不做
  *  @param implementationBlock 该 block 必须返回一个 block，返回的 block 将被当成 targetSelector 的新实现，所以要在内部自己处理对 super 的调用，以及对当前调用方法的 self 的 class 的保护判断（因为如果 targetClass 的 targetSelector 是继承自父类的，targetClass 内部并没有重写这个方法，则我们这个函数最终重写的其实是父类的 targetSelector，所以会产生预期之外的 class 的影响，例如 targetClass 传进来  UIButton.class，则最终可能会影响到 UIView.class），implementationBlock 的参数里第一个为你要修改的 class，也即等同于 targetClass，第二个参数为你要修改的 selector，也即等同于 targetSelector，第三个参数是 targetSelector 原本的实现，由于 IMP 可以直接当成 C 函数调用，所以可利用它来实现“调用 super”的效果，但由于 targetSelector 的参数个数、参数类型、返回值类型，都会影响 IMP 的调用写法，所以这个调用只能由业务自己写。
  */
-GT_EXTERN bool kObjc_OverrideImplementation(Class targetClass, SEL targetSelector, id (^implementationBlock)(Class originClass, SEL originCMD, IMP originIMP)) {
+GT_EXTERN BOOL kObjc_OverrideImplementation(Class targetClass, SEL targetSelector, id (^implementationBlock)(Class originClass, SEL originCMD, IMP originIMP)) {
     Method originMethod = class_getInstanceMethod(targetClass, targetSelector);
     if (!originMethod) {
         return NO;

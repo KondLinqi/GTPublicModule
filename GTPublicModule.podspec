@@ -17,8 +17,5 @@ Pod::Spec.new do |s|
   # 配置系统Framework
   s.frameworks = 'UIKit', 'Foundation'
 
-  
-  s.public_header_files = 'LDBusMediator/LDBusConnectorPrt.h','LDBusMediator/LDBusMediator.h', 'LDBusMediator/LDBusNavigator.h', 'LDBusMediator/UIViewController+NavigationTip.h'
-
 
 end

@@ -1,5 +1,5 @@
 PODS:
-  - GTPublicModule (0.1.0)
+  - GTPublicModule (0.0.1)
 
 DEPENDENCIES:
   - GTPublicModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GTPublicModule: 25bfce2e028727d1e13ab52eed323a41b19c0199
+  GTPublicModule: 7888cd9d532b1e9901654589a627768b17fd0d93
 
 PODFILE CHECKSUM: e45fe841d4f9a049eecf7c17f85bf3ce342d8a4e
 
