@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/GTPublicModule.svg?style=flat)](https://cocoapods.org/pods/GTPublicModule)
 [![Platform](https://img.shields.io/cocoapods/p/GTPublicModule.svg?style=flat)](https://cocoapods.org/pods/GTPublicModule)
 
+## 说明
+iOS 组件  
+ 基础组件，其中包括：公共方法，宏，OC拓展，工具库
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -1,0 +1,1919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A2C494C5795FC4146A8E450D882B85 /* UIView+GTToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2797DEBAED7A9BE1CEAF8238E770C087 /* UIView+GTToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01AFC5F2388D35DF290BE758EC9EEBC4 /* UIResponder+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C639CBCA2B5A35E667B4823C76400A0C /* UIResponder+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05641BEDBD72942C8DB819FB27F21D2D /* NSDictionary+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B01AE888B5DD5177A3D57B16EAF05526 /* NSDictionary+GTKit.m */; };
+		06700CDAD6363D9B441F8EE2B20AAEF8 /* CAAnimation+EasingEquations.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BA57271A8E583C4F25C47DC38773F6 /* CAAnimation+EasingEquations.m */; };
+		07449C6B32A595433F67BD8818D846B8 /* UISplitViewController+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FB05FEE1E821B5AA3F1BE353269B1767 /* UISplitViewController+GTKit.m */; };
+		09EEA7109BA2F52E1090C8E4D378053C /* NSBundle+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7E9CD0878EA207E92D6E73C1B7A7EB /* NSBundle+GTKit.m */; };
+		0C9FB70EB494069E42BFFF8E9DD99679 /* NSIndexPath+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E89EB81B033C758F244E19C47ECCAA5 /* NSIndexPath+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD18BAB845A4D82241FDB5F02BC69DE /* UIGestureRecognizer+GTOpertation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FDF74A7C2659E411354EB22E3E4DC /* UIGestureRecognizer+GTOpertation.m */; };
+		0CDB44719001F662EBD8531F3DB48E4C /* UIImage+GTGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C6B27395C503DBBC3B2EBBFAD9B937 /* UIImage+GTGIF.m */; };
+		0D2834ED77706D1F519EE97F4B736445 /* UIControl+GTBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = C896823994D2B69C0CAEE9B6C7441AAD /* UIControl+GTBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3F2072500482628BF0A7B6E43361D2 /* UICollectionViewCell+GTTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A015D63FC29612FE36A77B44064F07 /* UICollectionViewCell+GTTemplateLayoutCell.m */; };
+		11A3BBBBDB4E89D0E1B1F46FEB1A6358 /* NSString+GTEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 513C077610A4E8D684C2431FFA9E60A1 /* NSString+GTEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		121B106744E812294F00E2875B96B026 /* MKMapView+MoveLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DF656B876A8F6550C51A64320152C /* MKMapView+MoveLogo.m */; };
+		124B26DD14807C37CCB1329EFEB815FF /* UIView+GTConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B6F0D15871076D6D9C626F6DA4C6F6 /* UIView+GTConstraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B5DBDDF1FE741F1A4F37E790ADA5C5 /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E05F3D24A788759644EBC3AD3D88A081 /* UIScrollView+APParallaxHeader.m */; };
+		12FD765B0C16C8B49F0B0C9DBDEF8AA3 /* NSString+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 193ECC2BFFB8F43758AA6062A9A7C45D /* NSString+GTKit.m */; };
+		130D8C72C6B515FB555DD3B7B0CBCB81 /* UIView+GTDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E114C7DF250DABABF58A2953B5407 /* UIView+GTDraggable.m */; };
+		13D631E2AD2CDAB841D020769B3B65FD /* UICollectionViewCell+GTTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FC283DE528A922F15D44F9AD87DA89 /* UICollectionViewCell+GTTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B3DA5F53160E57A256639ECA2F71C8 /* UIView+GTGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E030856939D0CAEA69EC3917DF3EA02E /* UIView+GTGesture.m */; };
+		1B0DDFBD4D7589284E5D52595EB751AF /* CABasicAnimation+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D236950D45ADAF938A6A0415E2155 /* CABasicAnimation+GTKit.m */; };
+		1C5658DDBCA5D0DF55589DD39D0DD5AB /* UITabBarItem+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D5530E2839F2640750BDD1C0E4A78 /* UITabBarItem+GTKit.m */; };
+		1C69DF206089D3E13B5915BCF5815408 /* NSTimer+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A17C4F4AA022A005A10E59C02841558F /* NSTimer+GTKit.m */; };
+		1E6CA3AA3FA23C9922390B2401469563 /* UIView+GTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F42527D2AE3FE0D9D2B60A417F1E3 /* UIView+GTAnimation.m */; };
+		1F3853273CBFFF413A9ECF615CD3F5F0 /* UIButton+GTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 79542DDC69A0EC60D16C18DEF54393AA /* UIButton+GTButton.m */; };
+		1FDF1001A203C6AD2BB9422075C2B2D6 /* UIBezierPath+GTLength.h in Headers */ = {isa = PBXBuildFile; fileRef = DA904DF231E5E6CA6690ECE2EF95273B /* UIBezierPath+GTLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202FFD562FE01C0D8139A01710ABC5AF /* GTCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 914B18B9E68044DC0BB085C715E53C78 /* GTCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		207FABC19A44960A6A2762119D581FC9 /* UIBarButtonItem+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2BBB9D62B1A9A68F0C654D59462E5C /* UIBarButtonItem+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C45A3BA2205479840FB4F6C46D3EE9 /* UIView+GTConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9941C62A9AA90D0C4ABB46FFC4500 /* UIView+GTConstraints.m */; };
+		21F1FE6EE5258190144833042FA3EA16 /* UITableView+GTTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B907CBD937342C448C580F1B2CF61E4 /* UITableView+GTTemplateLayoutCell.m */; };
+		2367FB2807E72485AC2BF8756BB9E7B5 /* UIButton+GTState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E1892DC62601AF08F3BECB9148552 /* UIButton+GTState.m */; };
+		254696D574D3316509040C4DC5F636ED /* NSTimer+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA84DA01C3466D6D1E6F3DF15CF7E7EF /* NSTimer+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255EE51EF7AF0F6609A9BB4A8218575F /* UIGestureRecognizer+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78092064DE18F9D8E6823D1973D3EC49 /* UIGestureRecognizer+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27753C4D368533AAC9C65FE823A30AC1 /* UITableView+GTTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CCB0130E0FDD3BA605C0B889BC8A8 /* UITableView+GTTemplateLayoutCellDebug.m */; };
+		27FF14CDA5105C5557ED8C43F270AE16 /* NSSet+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7949AE863CCB5FFF1EEE4ACA72A2D8FB /* NSSet+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B90263AF749EB966CEE134A0C0EE0CE /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0307AAA25AB44354290C217D53EBD980 /* MKMapView+ZoomLevel.m */; };
+		2BE5A33DDADB3FE00B9D6C48213817BC /* UIImage+GTBetterFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 434B65650329582CDC021C0D3BB8602D /* UIImage+GTBetterFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CDFE68A3B7092EA5BC6515DF333DFF0 /* GTUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7828394663F4661F6B40832DF33D9BE9 /* GTUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D89926CEFA9396EFAA0E29B3AB6E255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2DB25385B260996362C44227ACEB6023 /* CABasicAnimation+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 39204AB2C876424B0E3821BA1F6FFC18 /* CABasicAnimation+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E62FC93A70575B1DD40A5539DDA7FBA /* GTFunctionCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 012C1E9BDC1D3C317EDC7A5BF62F8981 /* GTFunctionCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F74FCAC249C8B1EA48FA7DF70339E53 /* UIView+GTDraggable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEEC32C7E66CE7C35793BED87174CB8 /* UIView+GTDraggable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3001B5B88087EEF423F03358B2F6043F /* NSObject+GTKVOBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F80075D78636A7CCC1C41E3DFA381A99 /* NSObject+GTKVOBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32627ECB189D36C4FC62CF09CED245A1 /* NSUserDefaults+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EA184DBE1E68A90F37A0344CBD84A06E /* NSUserDefaults+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3293F00281DDC0DDC758167CC4AA6B88 /* GTQuartzCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 99719BBEB73B7D9BEFD5952A4FC4D317 /* GTQuartzCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3357E3979C7814F12A136FC9BE28D0BC /* UIImage+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 114675161FF1698F140170D66CC59B04 /* UIImage+GTKit.m */; };
+		344DF7DDBC696DA85777F1E0EA513AFC /* GTRegularExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = B9554FD43F10630C06C141F3067B4972 /* GTRegularExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BA8475D9C64A117FA07E2604BD04F5 /* NSObject+GTReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DD9EDD564B39EB044A83596553FC67 /* NSObject+GTReflection.m */; };
+		3666979F5FE4EC61DB5A3B05112A46E8 /* GTFunctionCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 542BBDBEA920A78C64F5E67B744561AC /* GTFunctionCommon.m */; };
+		371708388012061658DA52B34593F8C7 /* NSFileManager+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EAEC62DA4339B1E69CC2EEDC0FF05 /* NSFileManager+GTKit.m */; };
+		373C02338FCF7445450B38B0A91B0787 /* UIButton+GTSubmitting.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9625DCCD598395D14779F22B1EF232 /* UIButton+GTSubmitting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3810AC2EF61FE17D55FE140EBBB4E3AE /* CLLocation+CH1903.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD4A921E89B4953922A46FF3320466B /* CLLocation+CH1903.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		389FA7F25F3BCA0FE356322CA27DDB0A /* UIImageView+GTBetterFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D3021FA88426548CB08A92067DBEBD /* UIImageView+GTBetterFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D769F757A831041319465CE9A4924A /* UIScrollView+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD4DAE0209DC1450C32726E61F3D32B /* UIScrollView+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39989FB0E1F00E06B90C94FF8BF654D0 /* CATransaction+AnimateWithDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D14411E7771C2BCF944476B6D7949CD /* CATransaction+AnimateWithDuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A9CDA09557BE62A43DC8F14A8F84724 /* UITableViewCell+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD99677B10F68430C7EFB5FD3D4C379 /* UITableViewCell+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B7705C2D3EF2582497871DCA9DAA75E /* GTPublicModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3716E575AA94C26AC9C6ABC34345D13A /* GTPublicModule-dummy.m */; };
+		3B9139415608B82DF383C0E65C0D4FEC /* UIBarButtonItem+GTBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = A63075E55C3086625B2F111CC1D471E2 /* UIBarButtonItem+GTBadge.m */; };
+		3BE62458198F1408E44FE1C2E4ABEF05 /* UISplitViewController+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5576F7A585AEE73B247070BD484107EA /* UISplitViewController+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF65DABCC1E1F24F4E681A05F40FFFC /* UIView+GTTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8976067BB59BCB4CA2D042DE51D41450 /* UIView+GTTransition.m */; };
+		40F6AF9D82DD1CD61D9921442D3D815E /* CALayer+GTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9ED523B4C41274B267FFDADD5B5485 /* CALayer+GTAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438EA73BD2BB729BFBEA4E308A1ECDC1 /* UITabBarController+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFB9AF758F0C3FA1E5C0BCCF5B17112 /* UITabBarController+GTKit.m */; };
+		457DE50261E4CF95294C1D308EAC3854 /* UIBezierPath+GTSVGString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7676FC2C68353C94E9543B2C1B5B57 /* UIBezierPath+GTSVGString.m */; };
+		46299848B3C96AE26982CCD7DDE8FA47 /* UIBezierPath+GTThroughPointsBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CF3FC075D6C543537E7C72E0D32FE1 /* UIBezierPath+GTThroughPointsBezier.m */; };
+		468402BC8B5CF635FFC8165C6B97EDAA /* UIButton+GTState.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D5459E4DF7D1076025D54F396248A2 /* UIButton+GTState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472844ED476C0743419E99344E8D978F /* UIApplication+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2B5C160E7D8963755EE7FAFBB6188A /* UIApplication+GTKit.m */; };
+		4A2A31E183B8BA1E468E2ABAD5DB4B11 /* UIImageView+GTBetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 977E93FBD17AAD9B7A6A78055E52EC9C /* UIImageView+GTBetterFace.m */; };
+		4B0F54917CAF7EBB2A85914A87274FD1 /* GTRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B66B3DD1CCEF338B7CA8BF14B6D8B428 /* GTRegularExpression.m */; };
+		4B8EB72018B1545AA978DD5D40A930FC /* GTSystemCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D0829647AC328FEF97E833ED722CCB64 /* GTSystemCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B97844D1494A97E12B6A87A27E0201D /* CALayer+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AE20EFA48564C5B8BE32C80B61A086 /* CALayer+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4D34B9047E1DB632B6AC2768DB9E3A /* UIViewController+TopBarMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4449CB0D472945D1442D29E35719F6C8 /* UIViewController+TopBarMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7A850C0E201082712C1F0894B2020C /* UITextField+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E39D949CFC30D03ED4F353D664131274 /* UITextField+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FC06884E4EC4EB28ADB04F595AB07AF /* NSObject+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DBB5E35440683E1590FD38C2024ECF /* NSObject+GTKit.m */; };
+		500D0846CE266553F526CAE7EFAED5E4 /* GTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D57EABD987720CD5AFC2FD27510B4BA /* GTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52569A61484321181FFAD29C6F443644 /* UITableView+GTIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BBFEF6A8CBB1093B007917BED5D232 /* UITableView+GTIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53178A016FECED4ED1A80FE3ADDEF67B /* UIView+Genie.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CECB4A62816D60F18CCF97F53FA7FC3 /* UIView+Genie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		542BDBA3AFF42B5E12DA9EBC491463D6 /* NSDate+GTInternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB113E30F51A7B3CE228EA8E21349B /* NSDate+GTInternetDateTime.m */; };
+		55A1641E5869CCAD570F48AE26890EF3 /* CALayer+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB07EA83E13AE32E7DEA0C5E55A3A59 /* CALayer+GTKit.m */; };
+		55A3FD2AA0F44EC0765A0E4E478E01CF /* UIImage+GTGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 04920FFC71133437CCA30C3FBA04E0D4 /* UIImage+GTGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5873ED9281C03FB20E9EAECE588BF5AD /* NSData+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD44D67F3964B3EB076D16BAFAAF44F /* NSData+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58EC2F1AB356553C3943A99DC638D384 /* UIFont+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C85833A55966A8CB8CC86558B267C7A /* UIFont+GTKit.m */; };
+		590F811DE02D08D27928CC0B880FA453 /* UITextView+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 154D4316BD3CB524CEF3845E7EE467E2 /* UITextView+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A73308EDC6093889BC181A14E314852 /* UIColor+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07687BAEB48C7BE998F83A3EBEF642D6 /* UIColor+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB33FDA3A7051AFD84993EE51522BEC /* Pods-GTPublicModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF276FAD3C2A5A1E0957F03C9AF383F /* Pods-GTPublicModule_Example-dummy.m */; };
+		5D761AE6EA2679FF67B60B126B0B5C6D /* UITableView+GTTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = C4ADE47E999612B306A5AE86D648411D /* UITableView+GTTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F767BD7F1D9817A4617DE62AA9AFDE8 /* UIButton+GTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 197C369E41FAA7DD98546609920628A3 /* UIButton+GTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63E81EA3ECA979D0DB31872E494006DB /* UITableView+GTIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ED7AECB340DAA3025821B85501415 /* UITableView+GTIndexPathHeightCache.m */; };
+		6400FAA739147B65D29E9BA68F6DC10A /* UIButton+GTBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9261A04E7149D91DB1E12EE123505A /* UIButton+GTBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		648214E4EC187811E664415941CAEC9C /* UITextField+GTHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AA27CB39C843D8F6715C6529FA9D01 /* UITextField+GTHistory.m */; };
+		670F2BD3F85B60A5D9F7DFC62826E63A /* NSUserDefaults+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8677913CA37C6021A6B69BB44AF890 /* NSUserDefaults+GTKit.m */; };
+		679A82BC38E9B2AB47EE3AEB7D53D6E1 /* NSNumber+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9E718C963686CD677EB18A7582118F /* NSNumber+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6801BE519731B924A23E163561F3F562 /* CLLocation+CH1903.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF25BBBF4B54A84CF840A4A9412620C /* CLLocation+CH1903.m */; };
+		69DE1D25F6AA8AAB54DB490CBB4C36B8 /* Pods-GTPublicModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F25EC4432A72863D19364F660E1E3A6A /* Pods-GTPublicModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB61D3346FCF0F29B00534E713ED4DD /* UIBezierPath+GTThroughPointsBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3B95EFE85059001337FA44326FB157 /* UIBezierPath+GTThroughPointsBezier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B3082A34433EAB8C501A9054CFF76D7 /* NSArray+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3172A35E16EDAABDC8CB9A5673C6A6BA /* NSArray+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B4B4A2E4C7D95FCA7BB51D025B32726 /* UITabBar+GTBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = E9479B2309745D91DBF8E773F2835D06 /* UITabBar+GTBadge.m */; };
+		6CBCEDB7DACC507DE62E3E15EDFB8E3D /* NSString+GTStringPages.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC37FC62F9E6564B375749C38E76F49 /* NSString+GTStringPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E66EC797B0F037828577BC24732F2B6 /* NSKeyedUnarchiver+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 57773EB79B98F7A9462FEBE4A5056CCB /* NSKeyedUnarchiver+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCD13A9D5C2BE616FC2C81B60BB5F02 /* UITabBarItem+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC49BAB71E09B36B72E827138E7335C /* UITabBarItem+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		704A96D60789A6124BE2A1152D5D792F /* MKMapView+BetterMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECA0D81AB1DB7E5A42BE02FF1CA0AE /* MKMapView+BetterMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71124E1C61CC2C496A1751E694212049 /* UITabBar+GTBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF3AD9AC1B3FF69E244A1F9A727FCE8 /* UITabBar+GTBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721E9053E90C0CAD56EE46BBDABF21EC /* UIColor+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C169F4615B196E74665C62ABFEF8B65 /* UIColor+GTKit.m */; };
+		73C5E9FD64B97F4AD3FE16E233E27515 /* Pods-GTPublicModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D44F13738E8EA5C264E8A8E8B5FF58 /* Pods-GTPublicModule_Tests-dummy.m */; };
+		76619825B66F70E5C6B45D6980F8E82A /* UIDevice+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A947F6B900BFE998C4170740E85A4B /* UIDevice+GTKit.m */; };
+		77C2E0F5CEB9AA507D1A283540E33F25 /* UIDevice+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 05ED04A04BDF0243DD8A73B208BE3D7E /* UIDevice+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A8FB5711E6A8B95BB7D78E911DA4CE /* UIImage+GTBetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE5AF6609C7C7D34FD9128B85A7A7B /* UIImage+GTBetterFace.m */; };
+		7A487EE22DA6968D4F2DE118CD5A16B0 /* UIWindow+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B64E78AEDD33A54978725D4A97920A9 /* UIWindow+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DEF74ACA03317FBD539623CD2FD45CE /* CATransaction+AnimateWithDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 732B809B8907197E385C3770E5591893 /* CATransaction+AnimateWithDuration.m */; };
+		7F0C3710AB767AC6CF915466EAB537CC /* UIButton+GTCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 81391A9D62DDFBE3A45FCDB8455B63F0 /* UIButton+GTCountDown.m */; };
+		7F1C53142BF272C6F1D5845E55F488B3 /* UIView+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E34FDA6EF467F7F5AD4E06EB935D6B /* UIView+GTKit.m */; };
+		7F6F0D50E194BE8C57DFBD5AACB84A8F /* GTPublicModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7961C4CA361FB66685FB3A8E73ABC6C1 /* GTPublicModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA48124D0A680384734B236C4314CFE /* UITableViewCell+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C670C2F6FD5DF643F002233E65195F22 /* UITableViewCell+GTKit.m */; };
+		80459F4D520827C48B97F11718AA2B65 /* CAAnimation+EasingEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = 1960CCC14CAA2439074A0AF4496CA150 /* CAAnimation+EasingEquations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8412CB750B458C6F480EA008335C2F8B /* UITextField+GTHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = A511A3D34F2277EEE52639DD31EFE837 /* UITextField+GTHistory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84161A2032F1DFCB09B8A487DA0C8C75 /* UITextField+GTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 805A494E43DDBFF82318DDD954F8890B /* UITextField+GTBlocks.m */; };
+		844EF8D9795FF9360D9D0D791EA97662 /* UIControl+GTSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 721130E334AB36E0489AEFD9A371F9BB /* UIControl+GTSound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84940B61F2CAF3DC512FDD3DF8E2E85D /* UIViewController+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B97C6E095B8DCF2F0D3A1CD98335B67 /* UIViewController+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87FBEED1E4832E6279B8F71122CC13A6 /* NSNumber+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBA24153DE03900B34143B89BA9A58 /* NSNumber+GTKit.m */; };
+		8822123F71BEBA53AC12905964C020A7 /* UITableView+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D831315E64A6A84B59D6D702B706D /* UITableView+GTKit.m */; };
+		8871008C1808221A6CB84E4A386AECD4 /* UITabBarController+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8DA6DFF72E885E435CAEE799DCA2C3 /* UITabBarController+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		887BD635EFEB76769F1666DE0E83AFA6 /* UIScrollView+APParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C05CDC229EFD854E5CA603551F36F098 /* UIScrollView+APParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DC9E6304CC1E40D3C26EBF53DCC444 /* UIScreen+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4E52331BCB88A76ED7554816F9FCAD /* UIScreen+GTKit.m */; };
+		89A9CE3CE155DE712329A732440C8551 /* UIControl+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0201500346ED930528C4B1543287838C /* UIControl+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A21A433FB21E8EE02CDCFC944C2CD92 /* NSString+GTEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D7ED2989FA99A7605F90AB2632E794 /* NSString+GTEmoji.m */; };
+		8A69A5C75F0F8ED677BADCBAD1C732E8 /* UIControl+GTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 998A82CF9167282CEEF6AE06EA920664 /* UIControl+GTBlock.m */; };
+		8B5FC202C524BF25AA6BD884ECD3181D /* NSString+GTStringPages.m in Sources */ = {isa = PBXBuildFile; fileRef = B041C25DC5F54DA1056D811EE984EE28 /* NSString+GTStringPages.m */; };
+		8CF933DABCF456D08870C739C4E11F74 /* NSRunLoop+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1FE990BC759A40A55873EC7FD94CD6 /* NSRunLoop+GTKit.m */; };
+		8F021E2F3E4FB260994994114056A1AE /* GTSystemCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7CD5423A2C29957FA4F9D6884CF69 /* GTSystemCommon.m */; };
+		908B82E230A9094BC18A0C0A626C3DA4 /* GTCGCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E60E6C4F60162CEF76B6896F911FB0 /* GTCGCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		926F0CA069A7F433031CDE69BFCEFC30 /* NSKeyedUnarchiver+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A34F0BFAC11678947C3A96FA5F2E3E6B /* NSKeyedUnarchiver+GTKit.m */; };
+		933E8C717D5DBA93B69A6CE17C2261B6 /* UIButton+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D12443E5E2760647E0B241BEDD6FBE18 /* UIButton+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948AEE07622350F72EC6849EF1453C6F /* UITextField+GTBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5628CC2504119E17F135E50F85D8BF /* UITextField+GTBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		969500F14637FFCBE01073267FAA567F /* NSString+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 654820347FCEB7AFE32B56C1BBE81C96 /* NSString+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A22007290DD77FECEAEAD46B5672D7 /* UITableView+GTKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BC167E4E732D93236762D2E879EFC /* UITableView+GTKeyedHeightCache.m */; };
+		970088FE36D883827B2A36DC0738C7EC /* CAMediaTimingFunction+AdditionalEquations.m in Sources */ = {isa = PBXBuildFile; fileRef = 080FCB8416AE05BD265BCF1725650C8C /* CAMediaTimingFunction+AdditionalEquations.m */; };
+		9AF229AD431E0188B4B81EC3CE1E828B /* NSObject+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94653D765EEDB08D2B7DC9040590EC2F /* NSObject+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1D47F0C557338A0C6EF8166B3BFA7AB /* NSDate+GTInternetDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = D01025F7235BC22E9D447C21AB3C5366 /* NSDate+GTInternetDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A31DEC97D38527B70F3B3FBC53D4DF09 /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3CB6ABFE424105CF25B4425203DFE8 /* CAAnimation+Blocks.m */; };
+		A3386B3596BEFD67167CF36725C9529C /* NSSet+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D61BC063C26312D2C685813ED363AF8A /* NSSet+GTKit.m */; };
+		A3E4F6B82AD05E6EDF70151F003C49EF /* GTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3A2D503BFA1D97B9DBFAE1E64615B4 /* GTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C2DDDEB6C372C9C45F9456DF2EB70A /* UIView+GTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC8E5A90E331C0627E04B19B2D4F5C8 /* UIView+GTAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A792835A364D2EB4C934496780A9D267 /* NSNotificationCenter+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA538E8FCD0BD4CB6870F6A4DCF94AD /* NSNotificationCenter+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A82C239CCFE00C16F3F81A03C312DF30 /* NSArray+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FD91DB97D5DFC164F8A20E5BD11DAA26 /* NSArray+GTKit.m */; };
+		AA4882D25E211CA3F6BF949FAFF3E953 /* UITableView+GTTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 32409AA9A0E9CC916C315AB72A1AC6BA /* UITableView+GTTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADCB4E3E55E4886C1446DC69FE89562B /* UIBezierPath+GTSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2ABEB247BB085952F792ADC36CF528 /* UIBezierPath+GTSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEFE7C6AD211FAFEF94A670D85218FDB /* UIView+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 460F3CDA67D9055547AB6E1CF21486C9 /* UIView+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF05E33D399DBAD2C2A6009589661566 /* GTPublicModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8BA374EB240FC93C13DCA9FEBF01581 /* GTPublicModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF45C0964A483A834B4FCF78AEB8FE41 /* UIView+GTTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6336A44D5E917703A192DABEDA0AB4EC /* UIView+GTTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B032FC449535A9F1EB6D8C9449EC6E76 /* MKMapView+BetterMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9A1C7895E0059FDC3F227A7F4B33C /* MKMapView+BetterMaps.m */; };
+		B13428518E96A9C40BFE4F047A9F2A2F /* UIResponder+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEBB71A288954C7301ADD5F899C829 /* UIResponder+GTKit.m */; };
+		B4AE39DC83A2809F6A82CB54A42CDB8E /* GTPublicTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A90CA49AEB7FEFCE8022B366242D7B2 /* GTPublicTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D0510AE1B12AA6A6F2BB97667841DD /* UITextField+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BB091E313BE1C995E20E9BCBB89A453C /* UITextField+GTKit.m */; };
+		B5D8DE9B4A16A8FEF21C433009ED44E7 /* UIViewController+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 719929DDE420B916977863C599DA75F7 /* UIViewController+GTKit.m */; };
+		B7B6443459B3BAB42F5B3336F8AE757D /* UIView+GTStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B873BE8CDAE93515E10A261FE6D4E91 /* UIView+GTStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8B5AB54E7A8FEB1F9384905828841E /* NSObject+GTReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = B84C41E2BF16ACFF5AEFFB99FE2699F0 /* NSObject+GTReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB3D8A3BA9920AA9BFC4BDC4FC51A944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		BC2A41278CF805C28A958649B41E05FE /* UITextView+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E55E3EA44BA91903236DD15DDC9EE9 /* UITextView+GTKit.m */; };
+		BE3B8A82D29C743DEBFF9D5A3663885E /* UIBarButtonItem+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF1D078745A96175AAD66B562358BBB /* UIBarButtonItem+GTKit.m */; };
+		BF0C5B95831071BEC7121B3D29CDB5BB /* UIViewController+TopBarMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF94C0000B6D9A095EABD051311D006A /* UIViewController+TopBarMessage.m */; };
+		BF1C677412542248BF6676CE0362C4DD /* UIImage+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FCBF34A78AB284C9B67F4A044345F687 /* UIImage+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C128F78F62544CF8A5CDE68F0765CD58 /* NSObject+GTKVOBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4111CFC58E67D51CB6B6564B6FE031 /* NSObject+GTKVOBlock.m */; };
+		C144501761157DAD7769808B4B02F696 /* UIView+GTStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DB66C9EB6012F510892F99B4069E9F /* UIView+GTStyle.m */; };
+		C27BF84234B252CA2F76E4C176F62F30 /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = 40378A8B6A87C28D681C09F3CE5A48FD /* UIView+Genie.m */; };
+		C3485AF2A4694E76F728837187A2DF3A /* NSNotificationCenter+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3063938ECF2C1B2A0EDE587AA137EED /* NSNotificationCenter+GTKit.m */; };
+		C4D4702F90AC5FE394035B24E718F750 /* UIGestureRecognizer+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2275E0490C1FDF6B6104DBFF488ECAF7 /* UIGestureRecognizer+GTKit.m */; };
+		C69BC019A890DD8D937BC63844A8F505 /* NSRunLoop+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ED5D9E6B70A20E4066B56F43DC5E7F /* NSRunLoop+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D621C871A271C1DFC30D429F73745C /* UIBezierPath+GTSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A63D7698ABFD8EEA5B212E1D6F084B7 /* UIBezierPath+GTSymbol.m */; };
+		CCA42D9B0CF7A68658B236A27465759A /* UIFont+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AEAD78CEBD628A5EA3DCF5D392B168 /* UIFont+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCE9624067551206D584F5DF14D389AC /* UIButton+GTSubmitting.m in Sources */ = {isa = PBXBuildFile; fileRef = 35063FB17CF79233B56E4D9B61EE02ED /* UIButton+GTSubmitting.m */; };
+		D3DD29D10F7A43A2EA999D4F2D0915FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		D3ED5BAF5494D82DAA6A570B1F08BE97 /* UIViewController+GTStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 39055D00912A0DEB05A997021333F396 /* UIViewController+GTStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5FAECF03488225D1700CCD177FA8CE1 /* UIView+GTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 78327833764A6FD80650BE2B7C2498B7 /* UIView+GTToast.m */; };
+		DB721830632D7A2AD0E00C923AF6115B /* NSFileManager+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7BFDC957D12229C96E82E29E0A6337 /* NSFileManager+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC0EC19A9217AE724B87D4F2DA47B266 /* UIButton+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EC33EC68A5C46E325CBF47E9F80841 /* UIButton+GTKit.m */; };
+		DCC2F23AEE85CC8B33FE033C821FCD59 /* NSIndexPath+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2386B5BF6673348390FCA3AACDD962 /* NSIndexPath+GTKit.m */; };
+		DD1D0E9F379EBC874210DC4ECA955D2F /* UIControl+GTSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C3F99E8C0A44869A1D8862178B3E2C /* UIControl+GTSound.m */; };
+		DE51EF13E65273DCCCC74AAFF1CB4F7A /* NSDictionary+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F76A138CB69979D3B7F06BADC8A0F99 /* NSDictionary+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1E444D43DC0E41CBA226A220EA3354 /* UIView+GTGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FDA4459C9C9C416AD463C033648D38 /* UIView+GTGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFFC172C94D21CA94C80BDB6D34AEFF9 /* CAMediaTimingFunction+AdditionalEquations.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4CBD3F4931C3A15AFBF7C33B1A0114 /* CAMediaTimingFunction+AdditionalEquations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08B75A48A1419008D18047AF88E0238 /* UITableView+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 902E19B080BA3545F1DC88612AA246AB /* UITableView+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08D96C971EF7096991AE1EB68ED0E01 /* UIBezierPath+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA589AD99209ED7629E6D1CE855EA867 /* UIBezierPath+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F740735B29791400D6D3C61409070F /* GTCoreLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0675363E431096B23386C47E12455F61 /* GTCoreLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E124B27B759EAC176356858F7AA3F50D /* UIButton+GTBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C7DE51AB189FD2E3D557237C2A16F7 /* UIButton+GTBadge.m */; };
+		E236B80E0334999BEF5028E97B5441C8 /* UIControl+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E181D80B57019A5DC1AE093ED117D9D1 /* UIControl+GTKit.m */; };
+		E2E830919273163D352F445F39BC14D3 /* UIBezierPath+GTSVGString.h in Headers */ = {isa = PBXBuildFile; fileRef = 021805523872B2CF6F8BB42AE044FB88 /* UIBezierPath+GTSVGString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E436ACE3E5644305F57F6C82807DCE90 /* UIBarButtonItem+GTBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = CB71A7261B59A6EC67189AE256D17595 /* UIBarButtonItem+GTBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E528BEE4A8ABB51E5EE2A852EB729A23 /* UIWindow+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A258D9213ACDF4227DA897E33F024419 /* UIWindow+GTKit.m */; };
+		E6F92D9FEB13084DFACA11F7F69D6967 /* UIScrollView+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DDBA73A2282D7D13E2F07879C113F /* UIScrollView+GTKit.m */; };
+		E8482C4D9C741BB64DF12E69AD4DD1CE /* UIImageView+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A67A5A2D5A7CB63207724B819779BB /* UIImageView+GTKit.m */; };
+		E8AD2BE04368AD07865AB6CAA06345EC /* UIView+GTGlowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F8332FE5B341DE0C89A4382B9D5753 /* UIView+GTGlowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9373D34D63C8EF503753C2985F73377 /* UIScreen+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E07449D3EF1FC1E92AD93B7299DB067 /* UIScreen+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A81B7B93B6C5919FF6DC356D147C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EA24D781B8B3C6C90B765304B145B56E /* UIView+GTGlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335EB5BC020ED074917A54EE1CDD22A6 /* UIView+GTGlowView.m */; };
+		EA71A503D9703CC0EB39EC462ADD05FD /* NSDate+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848628551FC5DDB6DCEB6F3AF61C9F6 /* NSDate+GTKit.m */; };
+		EC0BD6D2BB8A852E33794C4557B382EC /* NSData+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86843C5DE54D3496C9A59DADC6E4D5FA /* NSData+GTKit.m */; };
+		EE9ABB22300DBE267BFA2B351781C492 /* NSDate+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A092FE8CA9DB53B7916140783EE023 /* NSDate+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE8EC7FC6F29699F3DDC26BD1F4D22C /* GTMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEF45AFF9E5DC6F52711687077398AA /* GTMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2D710582CCCE7D0C08526335C8DF65 /* UIGestureRecognizer+GTOpertation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8823B9E93159382907E70C343B0E3972 /* UIGestureRecognizer+GTOpertation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF498F0DD072177A806418628CF30629 /* UITableView+GTKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D33CA37DE4430ADED71C2E8011F3EFB1 /* UITableView+GTKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0094197AED1C69B24BA5CACACA326C1 /* CLLocationManager+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AF215CBA062CFCA70803CA1850980675 /* CLLocationManager+Blocks.m */; };
+		F281CE95106B5C6A737D0ADEC7EDF612 /* NSBundle+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A548E299F7B412E969F7E9958322BF1 /* NSBundle+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F57AC2AD366160ECE1C8C19DA874C900 /* Pods-GTPublicModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BF487208E6351FE5A5F7A0243BD6E4 /* Pods-GTPublicModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F690ED28653B1C631B0C50901FA96874 /* MKMapView+ZoomLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 40113908B67E420DCA3ED129C9757EB6 /* MKMapView+ZoomLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C108122E426BF8C7626F72C299A564 /* CALayer+GTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEAA201B1DA0AFEB088369541E43EB5 /* CALayer+GTAnimation.m */; };
+		F71A681DDE962AC44CE56666E460A9B8 /* UIViewController+GTStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A337010E54EEAA97B406B973410430F /* UIViewController+GTStoreKit.m */; };
+		F7B6F63AC3475418349F27FB54315BD4 /* MKMapView+MoveLogo.h in Headers */ = {isa = PBXBuildFile; fileRef = 968EBC72D37E555D0AB8EE7F51853D2E /* MKMapView+MoveLogo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C876AC6A934720FF000042B759BC19 /* CLLocationManager+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 667EFDF4A8FF9A0AAD30001C8351D993 /* CLLocationManager+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86697D0BDEAEA87EC608D3F1A1C5D0B /* GTMapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E0967293FD7D34F4E32D78EEEE0117 /* GTMapKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA491791AB208B90B09EBFB3C584010C /* UIButton+GTCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 8571FA807FAAF00457477D0136C27631 /* UIButton+GTCountDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6BFDB03A1FBAF0E9AE1ABA5C657D9A /* GTCGCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DAD206DF0A94698F3653B7A1C42CEE /* GTCGCommon.m */; };
+		FB736A0DAC8D18736AF3FD31CD864E7A /* UIBezierPath+GTLength.m in Sources */ = {isa = PBXBuildFile; fileRef = B8280AFB749BE83F1CF4ACA2B2735B8A /* UIBezierPath+GTLength.m */; };
+		FBAC484F3F0CBA880B8AA793DE52A152 /* UIImageView+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4B7C7963BEC72CEC6F19328E58D2CB /* UIImageView+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF3FD1D5653A343CA009DD66E9E6A32 /* UIApplication+GTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 89966C6C959010E6F59336DCEBA40CDA /* UIApplication+GTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD95B62339A7898F32E5D7187247AA72 /* CAAnimation+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 40324CFE54F2B907F66B5883F56E98C2 /* CAAnimation+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE5A823D3D0525DEC0130FACF5857E47 /* UIBezierPath+GTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C57B58557FE3A181F4E3F4C112494E4D /* UIBezierPath+GTKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04047E6E7C6A11991B2B954B676DCBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1054C5B8DAD8D34D0EF02D04A89CA0A;
+			remoteInfo = "Pods-GTPublicModule_Example";
+		};
+		E013699FFCB29BA41591F6B9AD832D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F7707767CD70CA7866FB76A509F5144;
+			remoteInfo = GTPublicModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012C1E9BDC1D3C317EDC7A5BF62F8981 /* GTFunctionCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTFunctionCommon.h; sourceTree = "<group>"; };
+		01AE20EFA48564C5B8BE32C80B61A086 /* CALayer+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+GTKit.h"; sourceTree = "<group>"; };
+		0201500346ED930528C4B1543287838C /* UIControl+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+GTKit.h"; sourceTree = "<group>"; };
+		021805523872B2CF6F8BB42AE044FB88 /* UIBezierPath+GTSVGString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+GTSVGString.h"; sourceTree = "<group>"; };
+		0307AAA25AB44354290C217D53EBD980 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		04920FFC71133437CCA30C3FBA04E0D4 /* UIImage+GTGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+GTGIF.h"; sourceTree = "<group>"; };
+		04A67A5A2D5A7CB63207724B819779BB /* UIImageView+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GTKit.m"; sourceTree = "<group>"; };
+		05ED04A04BDF0243DD8A73B208BE3D7E /* UIDevice+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+GTKit.h"; sourceTree = "<group>"; };
+		0675363E431096B23386C47E12455F61 /* GTCoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTCoreLocation.h; sourceTree = "<group>"; };
+		07687BAEB48C7BE998F83A3EBEF642D6 /* UIColor+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+GTKit.h"; sourceTree = "<group>"; };
+		078D5530E2839F2640750BDD1C0E4A78 /* UITabBarItem+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+GTKit.m"; sourceTree = "<group>"; };
+		080FCB8416AE05BD265BCF1725650C8C /* CAMediaTimingFunction+AdditionalEquations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAMediaTimingFunction+AdditionalEquations.m"; sourceTree = "<group>"; };
+		0A36F0FE28FABB258969FF64A4E76CD6 /* Pods-GTPublicModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTPublicModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AB07EA83E13AE32E7DEA0C5E55A3A59 /* CALayer+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+GTKit.m"; sourceTree = "<group>"; };
+		0C2386B5BF6673348390FCA3AACDD962 /* NSIndexPath+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+GTKit.m"; sourceTree = "<group>"; };
+		0D7E9CD0878EA207E92D6E73C1B7A7EB /* NSBundle+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+GTKit.m"; sourceTree = "<group>"; };
+		0F7C32B829D79D6053EFA8D5CE648A12 /* Pods-GTPublicModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTPublicModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		114675161FF1698F140170D66CC59B04 /* UIImage+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GTKit.m"; sourceTree = "<group>"; };
+		154D4316BD3CB524CEF3845E7EE467E2 /* UITextView+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+GTKit.h"; sourceTree = "<group>"; };
+		17D7ED2989FA99A7605F90AB2632E794 /* NSString+GTEmoji.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTEmoji.m"; sourceTree = "<group>"; };
+		193ECC2BFFB8F43758AA6062A9A7C45D /* NSString+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTKit.m"; sourceTree = "<group>"; };
+		1960CCC14CAA2439074A0AF4496CA150 /* CAAnimation+EasingEquations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+EasingEquations.h"; sourceTree = "<group>"; };
+		197C369E41FAA7DD98546609920628A3 /* UIButton+GTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTButton.h"; sourceTree = "<group>"; };
+		1A337010E54EEAA97B406B973410430F /* UIViewController+GTStoreKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GTStoreKit.m"; sourceTree = "<group>"; };
+		1A3ED7AECB340DAA3025821B85501415 /* UITableView+GTIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GTIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		1D8677913CA37C6021A6B69BB44AF890 /* NSUserDefaults+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+GTKit.m"; sourceTree = "<group>"; };
+		1DCB113E30F51A7B3CE228EA8E21349B /* NSDate+GTInternetDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GTInternetDateTime.m"; sourceTree = "<group>"; };
+		1E89EB81B033C758F244E19C47ECCAA5 /* NSIndexPath+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+GTKit.h"; sourceTree = "<group>"; };
+		210EF9779C35DEDD1B42FBC00CBE31F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2275E0490C1FDF6B6104DBFF488ECAF7 /* UIGestureRecognizer+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GTKit.m"; sourceTree = "<group>"; };
+		23B6F0D15871076D6D9C626F6DA4C6F6 /* UIView+GTConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTConstraints.h"; sourceTree = "<group>"; };
+		23E34FDA6EF467F7F5AD4E06EB935D6B /* UIView+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTKit.m"; sourceTree = "<group>"; };
+		2797DEBAED7A9BE1CEAF8238E770C087 /* UIView+GTToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTToast.h"; sourceTree = "<group>"; };
+		289EAEC62DA4339B1E69CC2EEDC0FF05 /* NSFileManager+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+GTKit.m"; sourceTree = "<group>"; };
+		29A20B00D1F32AC977CE009CB0E0E412 /* GTPublicModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTPublicModule-prefix.pch"; sourceTree = "<group>"; };
+		2A63D7698ABFD8EEA5B212E1D6F084B7 /* UIBezierPath+GTSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+GTSymbol.m"; sourceTree = "<group>"; };
+		2AEBA24153DE03900B34143B89BA9A58 /* NSNumber+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+GTKit.m"; sourceTree = "<group>"; };
+		2B97C6E095B8DCF2F0D3A1CD98335B67 /* UIViewController+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GTKit.h"; sourceTree = "<group>"; };
+		2C7676FC2C68353C94E9543B2C1B5B57 /* UIBezierPath+GTSVGString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+GTSVGString.m"; sourceTree = "<group>"; };
+		2C85833A55966A8CB8CC86558B267C7A /* UIFont+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GTKit.m"; sourceTree = "<group>"; };
+		2CECB4A62816D60F18CCF97F53FA7FC3 /* UIView+Genie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
+		2D57EABD987720CD5AFC2FD27510B4BA /* GTCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTCommon.h; sourceTree = "<group>"; };
+		309CCB0130E0FDD3BA605C0B889BC8A8 /* UITableView+GTTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GTTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		3172A35E16EDAABDC8CB9A5673C6A6BA /* NSArray+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+GTKit.h"; sourceTree = "<group>"; };
+		323D236950D45ADAF938A6A0415E2155 /* CABasicAnimation+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation+GTKit.m"; sourceTree = "<group>"; };
+		32409AA9A0E9CC916C315AB72A1AC6BA /* UITableView+GTTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+GTTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		335EB5BC020ED074917A54EE1CDD22A6 /* UIView+GTGlowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTGlowView.m"; sourceTree = "<group>"; };
+		34F9A1C7895E0059FDC3F227A7F4B33C /* MKMapView+BetterMaps.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+BetterMaps.m"; sourceTree = "<group>"; };
+		35063FB17CF79233B56E4D9B61EE02ED /* UIButton+GTSubmitting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTSubmitting.m"; sourceTree = "<group>"; };
+		3716E575AA94C26AC9C6ABC34345D13A /* GTPublicModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTPublicModule-dummy.m"; sourceTree = "<group>"; };
+		39055D00912A0DEB05A997021333F396 /* UIViewController+GTStoreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GTStoreKit.h"; sourceTree = "<group>"; };
+		39204AB2C876424B0E3821BA1F6FFC18 /* CABasicAnimation+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+GTKit.h"; sourceTree = "<group>"; };
+		3A548E299F7B412E969F7E9958322BF1 /* NSBundle+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+GTKit.h"; sourceTree = "<group>"; };
+		3B2ABEB247BB085952F792ADC36CF528 /* UIBezierPath+GTSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+GTSymbol.h"; sourceTree = "<group>"; };
+		3C922D649ACAB6C3BD7630C39C959F88 /* GTPublicModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTPublicModule.xcconfig; sourceTree = "<group>"; };
+		3CEEC32C7E66CE7C35793BED87174CB8 /* UIView+GTDraggable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTDraggable.h"; sourceTree = "<group>"; };
+		40113908B67E420DCA3ED129C9757EB6 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		40324CFE54F2B907F66B5883F56E98C2 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Blocks.h"; sourceTree = "<group>"; };
+		40378A8B6A87C28D681C09F3CE5A48FD /* UIView+Genie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
+		40F8332FE5B341DE0C89A4382B9D5753 /* UIView+GTGlowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTGlowView.h"; sourceTree = "<group>"; };
+		434B65650329582CDC021C0D3BB8602D /* UIImage+GTBetterFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+GTBetterFace.h"; sourceTree = "<group>"; };
+		43AA27CB39C843D8F6715C6529FA9D01 /* UITextField+GTHistory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GTHistory.m"; sourceTree = "<group>"; };
+		4449CB0D472945D1442D29E35719F6C8 /* UIViewController+TopBarMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopBarMessage.h"; sourceTree = "<group>"; };
+		460F3CDA67D9055547AB6E1CF21486C9 /* UIView+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTKit.h"; sourceTree = "<group>"; };
+		4A0F650A67120868C70213BE3E1CE4A8 /* Pods-GTPublicModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTPublicModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		4B2E114C7DF250DABABF58A2953B5407 /* UIView+GTDraggable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTDraggable.m"; sourceTree = "<group>"; };
+		4B64E78AEDD33A54978725D4A97920A9 /* UIWindow+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+GTKit.h"; sourceTree = "<group>"; };
+		4CA9941C62A9AA90D0C4ABB46FFC4500 /* UIView+GTConstraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTConstraints.m"; sourceTree = "<group>"; };
+		513C077610A4E8D684C2431FFA9E60A1 /* NSString+GTEmoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GTEmoji.h"; sourceTree = "<group>"; };
+		542BBDBEA920A78C64F5E67B744561AC /* GTFunctionCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTFunctionCommon.m; sourceTree = "<group>"; };
+		5576F7A585AEE73B247070BD484107EA /* UISplitViewController+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+GTKit.h"; sourceTree = "<group>"; };
+		55E0967293FD7D34F4E32D78EEEE0117 /* GTMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMapKit.h; sourceTree = "<group>"; };
+		56DB66C9EB6012F510892F99B4069E9F /* UIView+GTStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTStyle.m"; sourceTree = "<group>"; };
+		57773EB79B98F7A9462FEBE4A5056CCB /* NSKeyedUnarchiver+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSKeyedUnarchiver+GTKit.h"; sourceTree = "<group>"; };
+		5C0CE571609A44D14B05D0D9CA793960 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C8DA6DFF72E885E435CAEE799DCA2C3 /* UITabBarController+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+GTKit.h"; sourceTree = "<group>"; };
+		5CFC3D352D6848E81BF58ED10B58448A /* Pods-GTPublicModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTPublicModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5D2BBB9D62B1A9A68F0C654D59462E5C /* UIBarButtonItem+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GTKit.h"; sourceTree = "<group>"; };
+		5E07449D3EF1FC1E92AD93B7299DB067 /* UIScreen+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+GTKit.h"; sourceTree = "<group>"; };
+		5F3A2D503BFA1D97B9DBFAE1E64615B4 /* GTFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTFoundation.h; sourceTree = "<group>"; };
+		6336A44D5E917703A192DABEDA0AB4EC /* UIView+GTTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTTransition.h"; sourceTree = "<group>"; };
+		653EA2C93820BC2E92782132C8490F57 /* Pods-GTPublicModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTPublicModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		654820347FCEB7AFE32B56C1BBE81C96 /* NSString+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GTKit.h"; sourceTree = "<group>"; };
+		65BBFEF6A8CBB1093B007917BED5D232 /* UITableView+GTIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+GTIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		65EC33EC68A5C46E325CBF47E9F80841 /* UIButton+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTKit.m"; sourceTree = "<group>"; };
+		667EFDF4A8FF9A0AAD30001C8351D993 /* CLLocationManager+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+Blocks.h"; sourceTree = "<group>"; };
+		66F7CD5423A2C29957FA4F9D6884CF69 /* GTSystemCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTSystemCommon.m; sourceTree = "<group>"; };
+		672F42527D2AE3FE0D9D2B60A417F1E3 /* UIView+GTAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTAnimation.m"; sourceTree = "<group>"; };
+		69DBB5E35440683E1590FD38C2024ECF /* NSObject+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GTKit.m"; sourceTree = "<group>"; };
+		6A90CA49AEB7FEFCE8022B366242D7B2 /* GTPublicTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTPublicTool.h; sourceTree = "<group>"; };
+		6B873BE8CDAE93515E10A261FE6D4E91 /* UIView+GTStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTStyle.h"; sourceTree = "<group>"; };
+		6C169F4615B196E74665C62ABFEF8B65 /* UIColor+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GTKit.m"; sourceTree = "<group>"; };
+		6CDEBB71A288954C7301ADD5F899C829 /* UIResponder+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+GTKit.m"; sourceTree = "<group>"; };
+		6DD99677B10F68430C7EFB5FD3D4C379 /* UITableViewCell+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+GTKit.h"; sourceTree = "<group>"; };
+		6F5628CC2504119E17F135E50F85D8BF /* UITextField+GTBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+GTBlocks.h"; sourceTree = "<group>"; };
+		6F7BFDC957D12229C96E82E29E0A6337 /* NSFileManager+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+GTKit.h"; sourceTree = "<group>"; };
+		6FD44D67F3964B3EB076D16BAFAAF44F /* NSData+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+GTKit.h"; sourceTree = "<group>"; };
+		719929DDE420B916977863C599DA75F7 /* UIViewController+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GTKit.m"; sourceTree = "<group>"; };
+		721130E334AB36E0489AEFD9A371F9BB /* UIControl+GTSound.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+GTSound.h"; sourceTree = "<group>"; };
+		732B809B8907197E385C3770E5591893 /* CATransaction+AnimateWithDuration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CATransaction+AnimateWithDuration.m"; sourceTree = "<group>"; };
+		74A092FE8CA9DB53B7916140783EE023 /* NSDate+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+GTKit.h"; sourceTree = "<group>"; };
+		74A8F79A3AD31EB6D125BEF658B8ABDB /* Pods_GTPublicModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTPublicModule_Tests.framework; path = "Pods-GTPublicModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A947F6B900BFE998C4170740E85A4B /* UIDevice+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+GTKit.m"; sourceTree = "<group>"; };
+		76D44F13738E8EA5C264E8A8E8B5FF58 /* Pods-GTPublicModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTPublicModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		78092064DE18F9D8E6823D1973D3EC49 /* UIGestureRecognizer+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GTKit.h"; sourceTree = "<group>"; };
+		7828394663F4661F6B40832DF33D9BE9 /* GTUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTUIKit.h; sourceTree = "<group>"; };
+		78327833764A6FD80650BE2B7C2498B7 /* UIView+GTToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTToast.m"; sourceTree = "<group>"; };
+		7848628551FC5DDB6DCEB6F3AF61C9F6 /* NSDate+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GTKit.m"; sourceTree = "<group>"; };
+		7949AE863CCB5FFF1EEE4ACA72A2D8FB /* NSSet+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+GTKit.h"; sourceTree = "<group>"; };
+		79542DDC69A0EC60D16C18DEF54393AA /* UIButton+GTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTButton.m"; sourceTree = "<group>"; };
+		7961C4CA361FB66685FB3A8E73ABC6C1 /* GTPublicModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTPublicModule.h; path = GTPublicModule/GTPublicModule.h; sourceTree = "<group>"; };
+		79C6B27395C503DBBC3B2EBBFAD9B937 /* UIImage+GTGIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GTGIF.m"; sourceTree = "<group>"; };
+		7AECA0D81AB1DB7E5A42BE02FF1CA0AE /* MKMapView+BetterMaps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKMapView+BetterMaps.h"; sourceTree = "<group>"; };
+		7B6E1892DC62601AF08F3BECB9148552 /* UIButton+GTState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTState.m"; sourceTree = "<group>"; };
+		7B907CBD937342C448C580F1B2CF61E4 /* UITableView+GTTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GTTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		7BC8E5A90E331C0627E04B19B2D4F5C8 /* UIView+GTAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTAnimation.h"; sourceTree = "<group>"; };
+		7BD4A921E89B4953922A46FF3320466B /* CLLocation+CH1903.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLLocation+CH1903.h"; sourceTree = "<group>"; };
+		7D14411E7771C2BCF944476B6D7949CD /* CATransaction+AnimateWithDuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CATransaction+AnimateWithDuration.h"; sourceTree = "<group>"; };
+		805A494E43DDBFF82318DDD954F8890B /* UITextField+GTBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GTBlocks.m"; sourceTree = "<group>"; };
+		81391A9D62DDFBE3A45FCDB8455B63F0 /* UIButton+GTCountDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTCountDown.m"; sourceTree = "<group>"; };
+		84A015D63FC29612FE36A77B44064F07 /* UICollectionViewCell+GTTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+GTTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		8571FA807FAAF00457477D0136C27631 /* UIButton+GTCountDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTCountDown.h"; sourceTree = "<group>"; };
+		86843C5DE54D3496C9A59DADC6E4D5FA /* NSData+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+GTKit.m"; sourceTree = "<group>"; };
+		87DD9EDD564B39EB044A83596553FC67 /* NSObject+GTReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GTReflection.m"; sourceTree = "<group>"; };
+		8823B9E93159382907E70C343B0E3972 /* UIGestureRecognizer+GTOpertation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GTOpertation.h"; sourceTree = "<group>"; };
+		8976067BB59BCB4CA2D042DE51D41450 /* UIView+GTTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTTransition.m"; sourceTree = "<group>"; };
+		89966C6C959010E6F59336DCEBA40CDA /* UIApplication+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+GTKit.h"; sourceTree = "<group>"; };
+		8BDE5AF6609C7C7D34FD9128B85A7A7B /* UIImage+GTBetterFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GTBetterFace.m"; sourceTree = "<group>"; };
+		8FA538E8FCD0BD4CB6870F6A4DCF94AD /* NSNotificationCenter+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+GTKit.h"; sourceTree = "<group>"; };
+		902E19B080BA3545F1DC88612AA246AB /* UITableView+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+GTKit.h"; sourceTree = "<group>"; };
+		914167DE1A6366805D7BC3AB4DECDC70 /* Pods-GTPublicModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTPublicModule_Example.modulemap"; sourceTree = "<group>"; };
+		914B18B9E68044DC0BB085C715E53C78 /* GTCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTCategory.h; sourceTree = "<group>"; };
+		92AEAD78CEBD628A5EA3DCF5D392B168 /* UIFont+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+GTKit.h"; sourceTree = "<group>"; };
+		92D3021FA88426548CB08A92067DBEBD /* UIImageView+GTBetterFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GTBetterFace.h"; sourceTree = "<group>"; };
+		92E10F41A832964870317CC2FBF63A67 /* Pods_GTPublicModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTPublicModule_Example.framework; path = "Pods-GTPublicModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94653D765EEDB08D2B7DC9040590EC2F /* NSObject+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GTKit.h"; sourceTree = "<group>"; };
+		968C2E557CB2954EE16BFB9251728620 /* Pods-GTPublicModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTPublicModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		968EBC72D37E555D0AB8EE7F51853D2E /* MKMapView+MoveLogo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKMapView+MoveLogo.h"; sourceTree = "<group>"; };
+		977E93FBD17AAD9B7A6A78055E52EC9C /* UIImageView+GTBetterFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GTBetterFace.m"; sourceTree = "<group>"; };
+		97E25BC111C3BA98906622301F54221E /* Pods-GTPublicModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTPublicModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		99719BBEB73B7D9BEFD5952A4FC4D317 /* GTQuartzCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTQuartzCore.h; sourceTree = "<group>"; };
+		998A82CF9167282CEEF6AE06EA920664 /* UIControl+GTBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GTBlock.m"; sourceTree = "<group>"; };
+		99C3F99E8C0A44869A1D8862178B3E2C /* UIControl+GTSound.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GTSound.m"; sourceTree = "<group>"; };
+		99DAD206DF0A94698F3653B7A1C42CEE /* GTCGCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTCGCommon.m; sourceTree = "<group>"; };
+		99FAED096F845D128233CCC3D74A302C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1FE990BC759A40A55873EC7FD94CD6 /* NSRunLoop+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+GTKit.m"; sourceTree = "<group>"; };
+		9F4E52331BCB88A76ED7554816F9FCAD /* UIScreen+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+GTKit.m"; sourceTree = "<group>"; };
+		9F76A138CB69979D3B7F06BADC8A0F99 /* NSDictionary+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GTKit.h"; sourceTree = "<group>"; };
+		A116FAF9C7E0BED0581CDCDAA3CF4BF8 /* GTPublicModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTPublicModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17C4F4AA022A005A10E59C02841558F /* NSTimer+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+GTKit.m"; sourceTree = "<group>"; };
+		A258D9213ACDF4227DA897E33F024419 /* UIWindow+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+GTKit.m"; sourceTree = "<group>"; };
+		A2D5459E4DF7D1076025D54F396248A2 /* UIButton+GTState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTState.h"; sourceTree = "<group>"; };
+		A34F0BFAC11678947C3A96FA5F2E3E6B /* NSKeyedUnarchiver+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSKeyedUnarchiver+GTKit.m"; sourceTree = "<group>"; };
+		A3FC283DE528A922F15D44F9AD87DA89 /* UICollectionViewCell+GTTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+GTTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		A4FDA4459C9C9C416AD463C033648D38 /* UIView+GTGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+GTGesture.h"; sourceTree = "<group>"; };
+		A511A3D34F2277EEE52639DD31EFE837 /* UITextField+GTHistory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+GTHistory.h"; sourceTree = "<group>"; };
+		A63075E55C3086625B2F111CC1D471E2 /* UIBarButtonItem+GTBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GTBadge.m"; sourceTree = "<group>"; };
+		AA4111CFC58E67D51CB6B6564B6FE031 /* NSObject+GTKVOBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GTKVOBlock.m"; sourceTree = "<group>"; };
+		AB0922D07886A704192A440485DC26CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB254F8C87B08A3F0431B7478AA6C85E /* Pods-GTPublicModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTPublicModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB3CB6ABFE424105CF25B4425203DFE8 /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+Blocks.m"; sourceTree = "<group>"; };
+		AE445589EC74AB857224EEE9717A51BE /* GTPublicModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTPublicModule.modulemap; sourceTree = "<group>"; };
+		AF215CBA062CFCA70803CA1850980675 /* CLLocationManager+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+Blocks.m"; sourceTree = "<group>"; };
+		B01AE888B5DD5177A3D57B16EAF05526 /* NSDictionary+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GTKit.m"; sourceTree = "<group>"; };
+		B041C25DC5F54DA1056D811EE984EE28 /* NSString+GTStringPages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GTStringPages.m"; sourceTree = "<group>"; };
+		B0BA57271A8E583C4F25C47DC38773F6 /* CAAnimation+EasingEquations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+EasingEquations.m"; sourceTree = "<group>"; };
+		B0E60E6C4F60162CEF76B6896F911FB0 /* GTCGCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTCGCommon.h; sourceTree = "<group>"; };
+		B21D831315E64A6A84B59D6D702B706D /* UITableView+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GTKit.m"; sourceTree = "<group>"; };
+		B2B5E34DEA7303F5CDC6447757FC0E81 /* Pods-GTPublicModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTPublicModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3063938ECF2C1B2A0EDE587AA137EED /* NSNotificationCenter+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+GTKit.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B66B3DD1CCEF338B7CA8BF14B6D8B428 /* GTRegularExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTRegularExpression.m; sourceTree = "<group>"; };
+		B67BC167E4E732D93236762D2E879EFC /* UITableView+GTKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GTKeyedHeightCache.m"; sourceTree = "<group>"; };
+		B71813D581FA937368EEB178CB2A9FCC /* Pods-GTPublicModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTPublicModule_Tests.modulemap"; sourceTree = "<group>"; };
+		B8280AFB749BE83F1CF4ACA2B2735B8A /* UIBezierPath+GTLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+GTLength.m"; sourceTree = "<group>"; };
+		B84C41E2BF16ACFF5AEFFB99FE2699F0 /* NSObject+GTReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GTReflection.h"; sourceTree = "<group>"; };
+		B8BA374EB240FC93C13DCA9FEBF01581 /* GTPublicModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTPublicModule-umbrella.h"; sourceTree = "<group>"; };
+		B9554FD43F10630C06C141F3067B4972 /* GTRegularExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTRegularExpression.h; sourceTree = "<group>"; };
+		BA9261A04E7149D91DB1E12EE123505A /* UIButton+GTBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTBadge.h"; sourceTree = "<group>"; };
+		BAF3AD9AC1B3FF69E244A1F9A727FCE8 /* UITabBar+GTBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+GTBadge.h"; sourceTree = "<group>"; };
+		BB091E313BE1C995E20E9BCBB89A453C /* UITextField+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GTKit.m"; sourceTree = "<group>"; };
+		BD4CBD3F4931C3A15AFBF7C33B1A0114 /* CAMediaTimingFunction+AdditionalEquations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAMediaTimingFunction+AdditionalEquations.h"; sourceTree = "<group>"; };
+		BE9E718C963686CD677EB18A7582118F /* NSNumber+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+GTKit.h"; sourceTree = "<group>"; };
+		BFC37FC62F9E6564B375749C38E76F49 /* NSString+GTStringPages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GTStringPages.h"; sourceTree = "<group>"; };
+		C05CDC229EFD854E5CA603551F36F098 /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		C1C7DE51AB189FD2E3D557237C2A16F7 /* UIButton+GTBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTBadge.m"; sourceTree = "<group>"; };
+		C4ADE47E999612B306A5AE86D648411D /* UITableView+GTTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+GTTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		C57B58557FE3A181F4E3F4C112494E4D /* UIBezierPath+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+GTKit.m"; sourceTree = "<group>"; };
+		C639CBCA2B5A35E667B4823C76400A0C /* UIResponder+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIResponder+GTKit.h"; sourceTree = "<group>"; };
+		C670C2F6FD5DF643F002233E65195F22 /* UITableViewCell+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+GTKit.m"; sourceTree = "<group>"; };
+		C896823994D2B69C0CAEE9B6C7441AAD /* UIControl+GTBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+GTBlock.h"; sourceTree = "<group>"; };
+		CB71A7261B59A6EC67189AE256D17595 /* UIBarButtonItem+GTBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GTBadge.h"; sourceTree = "<group>"; };
+		CBF276FAD3C2A5A1E0957F03C9AF383F /* Pods-GTPublicModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTPublicModule_Example-dummy.m"; sourceTree = "<group>"; };
+		CC9625DCCD598395D14779F22B1EF232 /* UIButton+GTSubmitting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTSubmitting.h"; sourceTree = "<group>"; };
+		CCF25BBBF4B54A84CF840A4A9412620C /* CLLocation+CH1903.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+CH1903.m"; sourceTree = "<group>"; };
+		CFFB9AF758F0C3FA1E5C0BCCF5B17112 /* UITabBarController+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+GTKit.m"; sourceTree = "<group>"; };
+		D01025F7235BC22E9D447C21AB3C5366 /* NSDate+GTInternetDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+GTInternetDateTime.h"; sourceTree = "<group>"; };
+		D0829647AC328FEF97E833ED722CCB64 /* GTSystemCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTSystemCommon.h; sourceTree = "<group>"; };
+		D12443E5E2760647E0B241BEDD6FBE18 /* UIButton+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTKit.h"; sourceTree = "<group>"; };
+		D33CA37DE4430ADED71C2E8011F3EFB1 /* UITableView+GTKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+GTKeyedHeightCache.h"; sourceTree = "<group>"; };
+		D37DF656B876A8F6550C51A64320152C /* MKMapView+MoveLogo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+MoveLogo.m"; sourceTree = "<group>"; };
+		D61BC063C26312D2C685813ED363AF8A /* NSSet+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+GTKit.m"; sourceTree = "<group>"; };
+		D6CF3FC075D6C543537E7C72E0D32FE1 /* UIBezierPath+GTThroughPointsBezier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+GTThroughPointsBezier.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D98DDBA73A2282D7D13E2F07879C113F /* UIScrollView+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GTKit.m"; sourceTree = "<group>"; };
+		DA589AD99209ED7629E6D1CE855EA867 /* UIBezierPath+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+GTKit.h"; sourceTree = "<group>"; };
+		DA84DA01C3466D6D1E6F3DF15CF7E7EF /* NSTimer+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+GTKit.h"; sourceTree = "<group>"; };
+		DA904DF231E5E6CA6690ECE2EF95273B /* UIBezierPath+GTLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+GTLength.h"; sourceTree = "<group>"; };
+		DB2B5C160E7D8963755EE7FAFBB6188A /* UIApplication+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+GTKit.m"; sourceTree = "<group>"; };
+		DCEF45AFF9E5DC6F52711687077398AA /* GTMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMacros.h; sourceTree = "<group>"; };
+		DFD4DAE0209DC1450C32726E61F3D32B /* UIScrollView+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GTKit.h"; sourceTree = "<group>"; };
+		E030856939D0CAEA69EC3917DF3EA02E /* UIView+GTGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+GTGesture.m"; sourceTree = "<group>"; };
+		E05F3D24A788759644EBC3AD3D88A081 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
+		E181D80B57019A5DC1AE093ED117D9D1 /* UIControl+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GTKit.m"; sourceTree = "<group>"; };
+		E39D949CFC30D03ED4F353D664131274 /* UITextField+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+GTKit.h"; sourceTree = "<group>"; };
+		E7E55E3EA44BA91903236DD15DDC9EE9 /* UITextView+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+GTKit.m"; sourceTree = "<group>"; };
+		E7FD547EF93911F89D363C20653DC094 /* GTPublicModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTPublicModule.framework; path = GTPublicModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9479B2309745D91DBF8E773F2835D06 /* UITabBar+GTBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+GTBadge.m"; sourceTree = "<group>"; };
+		EA184DBE1E68A90F37A0344CBD84A06E /* NSUserDefaults+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+GTKit.h"; sourceTree = "<group>"; };
+		EA3B95EFE85059001337FA44326FB157 /* UIBezierPath+GTThroughPointsBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+GTThroughPointsBezier.h"; sourceTree = "<group>"; };
+		EBE05593155F35596469F41D6CEA9493 /* Pods-GTPublicModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTPublicModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC0CB0A87A419C71619D774FEF827BAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EDC49BAB71E09B36B72E827138E7335C /* UITabBarItem+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+GTKit.h"; sourceTree = "<group>"; };
+		EDF1D078745A96175AAD66B562358BBB /* UIBarButtonItem+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GTKit.m"; sourceTree = "<group>"; };
+		EE6FDF74A7C2659E411354EB22E3E4DC /* UIGestureRecognizer+GTOpertation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GTOpertation.m"; sourceTree = "<group>"; };
+		F0BF487208E6351FE5A5F7A0243BD6E4 /* Pods-GTPublicModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTPublicModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		F25EC4432A72863D19364F660E1E3A6A /* Pods-GTPublicModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTPublicModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F3ED5D9E6B70A20E4066B56F43DC5E7F /* NSRunLoop+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+GTKit.h"; sourceTree = "<group>"; };
+		F69394EF8B6F76B4BE8C458C0F4331B4 /* Pods-GTPublicModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTPublicModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F80075D78636A7CCC1C41E3DFA381A99 /* NSObject+GTKVOBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+GTKVOBlock.h"; sourceTree = "<group>"; };
+		FA7A53F97166D4632D7DD670635F1C1D /* Pods-GTPublicModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTPublicModule_Example-resources.sh"; sourceTree = "<group>"; };
+		FB05FEE1E821B5AA3F1BE353269B1767 /* UISplitViewController+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+GTKit.m"; sourceTree = "<group>"; };
+		FB9ED523B4C41274B267FFDADD5B5485 /* CALayer+GTAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+GTAnimation.h"; sourceTree = "<group>"; };
+		FCBF34A78AB284C9B67F4A044345F687 /* UIImage+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+GTKit.h"; sourceTree = "<group>"; };
+		FD91DB97D5DFC164F8A20E5BD11DAA26 /* NSArray+GTKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GTKit.m"; sourceTree = "<group>"; };
+		FF4B7C7963BEC72CEC6F19328E58D2CB /* UIImageView+GTKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GTKit.h"; sourceTree = "<group>"; };
+		FF94C0000B6D9A095EABD051311D006A /* UIViewController+TopBarMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopBarMessage.m"; sourceTree = "<group>"; };
+		FFEAA201B1DA0AFEB088369541E43EB5 /* CALayer+GTAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+GTAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AD0C7C7EC16320A5446E6355B018371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D89926CEFA9396EFAA0E29B3AB6E255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC1B85CCBEB5D1A9C2C46B2DFA57D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3D8A3BA9920AA9BFC4BDC4FC51A944 /* Foundation.framework in Frameworks */,
+				D3DD29D10F7A43A2EA999D4F2D0915FA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C5E16A76F0C2BF446AA64FCE12D99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A81B7B93B6C5919FF6DC356D147C6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0206605C188059AFA359FDF92C9DD9B2 /* CATransaction */ = {
+			isa = PBXGroup;
+			children = (
+				7D14411E7771C2BCF944476B6D7949CD /* CATransaction+AnimateWithDuration.h */,
+				732B809B8907197E385C3770E5591893 /* CATransaction+AnimateWithDuration.m */,
+			);
+			name = CATransaction;
+			path = CATransaction;
+			sourceTree = "<group>";
+		};
+		072A6D4CD07F95D3F122F52D2890C6DE /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C05CDC229EFD854E5CA603551F36F098 /* UIScrollView+APParallaxHeader.h */,
+				E05F3D24A788759644EBC3AD3D88A081 /* UIScrollView+APParallaxHeader.m */,
+				DFD4DAE0209DC1450C32726E61F3D32B /* UIScrollView+GTKit.h */,
+				D98DDBA73A2282D7D13E2F07879C113F /* UIScrollView+GTKit.m */,
+			);
+			name = UIScrollView;
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		075186A9340EB4CB7EE0343C5D6F0760 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5F3A2D503BFA1D97B9DBFAE1E64615B4 /* GTFoundation.h */,
+				3172A35E16EDAABDC8CB9A5673C6A6BA /* NSArray+GTKit.h */,
+				FD91DB97D5DFC164F8A20E5BD11DAA26 /* NSArray+GTKit.m */,
+				3A548E299F7B412E969F7E9958322BF1 /* NSBundle+GTKit.h */,
+				0D7E9CD0878EA207E92D6E73C1B7A7EB /* NSBundle+GTKit.m */,
+				6FD44D67F3964B3EB076D16BAFAAF44F /* NSData+GTKit.h */,
+				86843C5DE54D3496C9A59DADC6E4D5FA /* NSData+GTKit.m */,
+				D01025F7235BC22E9D447C21AB3C5366 /* NSDate+GTInternetDateTime.h */,
+				1DCB113E30F51A7B3CE228EA8E21349B /* NSDate+GTInternetDateTime.m */,
+				74A092FE8CA9DB53B7916140783EE023 /* NSDate+GTKit.h */,
+				7848628551FC5DDB6DCEB6F3AF61C9F6 /* NSDate+GTKit.m */,
+				9F76A138CB69979D3B7F06BADC8A0F99 /* NSDictionary+GTKit.h */,
+				B01AE888B5DD5177A3D57B16EAF05526 /* NSDictionary+GTKit.m */,
+				6F7BFDC957D12229C96E82E29E0A6337 /* NSFileManager+GTKit.h */,
+				289EAEC62DA4339B1E69CC2EEDC0FF05 /* NSFileManager+GTKit.m */,
+				1E89EB81B033C758F244E19C47ECCAA5 /* NSIndexPath+GTKit.h */,
+				0C2386B5BF6673348390FCA3AACDD962 /* NSIndexPath+GTKit.m */,
+				57773EB79B98F7A9462FEBE4A5056CCB /* NSKeyedUnarchiver+GTKit.h */,
+				A34F0BFAC11678947C3A96FA5F2E3E6B /* NSKeyedUnarchiver+GTKit.m */,
+				8FA538E8FCD0BD4CB6870F6A4DCF94AD /* NSNotificationCenter+GTKit.h */,
+				B3063938ECF2C1B2A0EDE587AA137EED /* NSNotificationCenter+GTKit.m */,
+				BE9E718C963686CD677EB18A7582118F /* NSNumber+GTKit.h */,
+				2AEBA24153DE03900B34143B89BA9A58 /* NSNumber+GTKit.m */,
+				94653D765EEDB08D2B7DC9040590EC2F /* NSObject+GTKit.h */,
+				69DBB5E35440683E1590FD38C2024ECF /* NSObject+GTKit.m */,
+				F80075D78636A7CCC1C41E3DFA381A99 /* NSObject+GTKVOBlock.h */,
+				AA4111CFC58E67D51CB6B6564B6FE031 /* NSObject+GTKVOBlock.m */,
+				B84C41E2BF16ACFF5AEFFB99FE2699F0 /* NSObject+GTReflection.h */,
+				87DD9EDD564B39EB044A83596553FC67 /* NSObject+GTReflection.m */,
+				F3ED5D9E6B70A20E4066B56F43DC5E7F /* NSRunLoop+GTKit.h */,
+				9E1FE990BC759A40A55873EC7FD94CD6 /* NSRunLoop+GTKit.m */,
+				7949AE863CCB5FFF1EEE4ACA72A2D8FB /* NSSet+GTKit.h */,
+				D61BC063C26312D2C685813ED363AF8A /* NSSet+GTKit.m */,
+				513C077610A4E8D684C2431FFA9E60A1 /* NSString+GTEmoji.h */,
+				17D7ED2989FA99A7605F90AB2632E794 /* NSString+GTEmoji.m */,
+				654820347FCEB7AFE32B56C1BBE81C96 /* NSString+GTKit.h */,
+				193ECC2BFFB8F43758AA6062A9A7C45D /* NSString+GTKit.m */,
+				BFC37FC62F9E6564B375749C38E76F49 /* NSString+GTStringPages.h */,
+				B041C25DC5F54DA1056D811EE984EE28 /* NSString+GTStringPages.m */,
+				DA84DA01C3466D6D1E6F3DF15CF7E7EF /* NSTimer+GTKit.h */,
+				A17C4F4AA022A005A10E59C02841558F /* NSTimer+GTKit.m */,
+				EA184DBE1E68A90F37A0344CBD84A06E /* NSUserDefaults+GTKit.h */,
+				1D8677913CA37C6021A6B69BB44AF890 /* NSUserDefaults+GTKit.m */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		09BCFF021561155546A133320B02222D /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				BA9261A04E7149D91DB1E12EE123505A /* UIButton+GTBadge.h */,
+				C1C7DE51AB189FD2E3D557237C2A16F7 /* UIButton+GTBadge.m */,
+				197C369E41FAA7DD98546609920628A3 /* UIButton+GTButton.h */,
+				79542DDC69A0EC60D16C18DEF54393AA /* UIButton+GTButton.m */,
+				8571FA807FAAF00457477D0136C27631 /* UIButton+GTCountDown.h */,
+				81391A9D62DDFBE3A45FCDB8455B63F0 /* UIButton+GTCountDown.m */,
+				D12443E5E2760647E0B241BEDD6FBE18 /* UIButton+GTKit.h */,
+				65EC33EC68A5C46E325CBF47E9F80841 /* UIButton+GTKit.m */,
+				A2D5459E4DF7D1076025D54F396248A2 /* UIButton+GTState.h */,
+				7B6E1892DC62601AF08F3BECB9148552 /* UIButton+GTState.m */,
+				CC9625DCCD598395D14779F22B1EF232 /* UIButton+GTSubmitting.h */,
+				35063FB17CF79233B56E4D9B61EE02ED /* UIButton+GTSubmitting.m */,
+			);
+			name = UIButton;
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		0A1CD454691277EAC34A924EB24B6B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7FD547EF93911F89D363C20653DC094 /* GTPublicModule.framework */,
+				92E10F41A832964870317CC2FBF63A67 /* Pods_GTPublicModule_Example.framework */,
+				74A8F79A3AD31EB6D125BEF658B8ABDB /* Pods_GTPublicModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAAFA149194A662251F1C57D0DABCF0 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				2CECB4A62816D60F18CCF97F53FA7FC3 /* UIView+Genie.h */,
+				40378A8B6A87C28D681C09F3CE5A48FD /* UIView+Genie.m */,
+				7BC8E5A90E331C0627E04B19B2D4F5C8 /* UIView+GTAnimation.h */,
+				672F42527D2AE3FE0D9D2B60A417F1E3 /* UIView+GTAnimation.m */,
+				23B6F0D15871076D6D9C626F6DA4C6F6 /* UIView+GTConstraints.h */,
+				4CA9941C62A9AA90D0C4ABB46FFC4500 /* UIView+GTConstraints.m */,
+				3CEEC32C7E66CE7C35793BED87174CB8 /* UIView+GTDraggable.h */,
+				4B2E114C7DF250DABABF58A2953B5407 /* UIView+GTDraggable.m */,
+				A4FDA4459C9C9C416AD463C033648D38 /* UIView+GTGesture.h */,
+				E030856939D0CAEA69EC3917DF3EA02E /* UIView+GTGesture.m */,
+				40F8332FE5B341DE0C89A4382B9D5753 /* UIView+GTGlowView.h */,
+				335EB5BC020ED074917A54EE1CDD22A6 /* UIView+GTGlowView.m */,
+				460F3CDA67D9055547AB6E1CF21486C9 /* UIView+GTKit.h */,
+				23E34FDA6EF467F7F5AD4E06EB935D6B /* UIView+GTKit.m */,
+				6B873BE8CDAE93515E10A261FE6D4E91 /* UIView+GTStyle.h */,
+				56DB66C9EB6012F510892F99B4069E9F /* UIView+GTStyle.m */,
+				2797DEBAED7A9BE1CEAF8238E770C087 /* UIView+GTToast.h */,
+				78327833764A6FD80650BE2B7C2498B7 /* UIView+GTToast.m */,
+				6336A44D5E917703A192DABEDA0AB4EC /* UIView+GTTransition.h */,
+				8976067BB59BCB4CA2D042DE51D41450 /* UIView+GTTransition.m */,
+			);
+			name = UIView;
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		17FDA8FD04F4AD3F67C6D65286872E51 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				C896823994D2B69C0CAEE9B6C7441AAD /* UIControl+GTBlock.h */,
+				998A82CF9167282CEEF6AE06EA920664 /* UIControl+GTBlock.m */,
+				0201500346ED930528C4B1543287838C /* UIControl+GTKit.h */,
+				E181D80B57019A5DC1AE093ED117D9D1 /* UIControl+GTKit.m */,
+				721130E334AB36E0489AEFD9A371F9BB /* UIControl+GTSound.h */,
+				99C3F99E8C0A44869A1D8862178B3E2C /* UIControl+GTSound.m */,
+			);
+			name = UIControl;
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		1A7FA64DE4D658FC9AF3268FC758275F /* GTRegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				B9554FD43F10630C06C141F3067B4972 /* GTRegularExpression.h */,
+				B66B3DD1CCEF338B7CA8BF14B6D8B428 /* GTRegularExpression.m */,
+			);
+			name = GTRegularExpression;
+			path = GTRegularExpression;
+			sourceTree = "<group>";
+		};
+		1CE5A1FACA5449D3C64A300B7D8FC48A /* GTCategory */ = {
+			isa = PBXGroup;
+			children = (
+				914B18B9E68044DC0BB085C715E53C78 /* GTCategory.h */,
+				F93244B7B082D56B7A38D76A3825E440 /* CoreLocation */,
+				075186A9340EB4CB7EE0343C5D6F0760 /* Foundation */,
+				E8ACC0FE7A0F3135FB414207C069BCA1 /* MapKit */,
+				B98EE5B1D5424BD8260623A6B43E4CB9 /* QuartzCore */,
+				FA90882BAC3A8E9A70225E7DDD4B8361 /* UIKit */,
+			);
+			name = GTCategory;
+			path = GTPublicModule/GTCategory;
+			sourceTree = "<group>";
+		};
+		1EE656D97D6C1492C51102BDFA6391E4 /* CLLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				667EFDF4A8FF9A0AAD30001C8351D993 /* CLLocationManager+Blocks.h */,
+				AF215CBA062CFCA70803CA1850980675 /* CLLocationManager+Blocks.m */,
+			);
+			name = CLLocationManager;
+			path = CLLocationManager;
+			sourceTree = "<group>";
+		};
+		207B1D0BDD8704B18A90D53E4A3E4E94 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6DD99677B10F68430C7EFB5FD3D4C379 /* UITableViewCell+GTKit.h */,
+				C670C2F6FD5DF643F002233E65195F22 /* UITableViewCell+GTKit.m */,
+				B3F99D9BE945F5804F00349F628AED29 /* UITableView-GTTemplateLayoutCell */,
+			);
+			name = UITableViewCell;
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		2BAADD3E4C07CA112409AF24DDD5F940 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A116FAF9C7E0BED0581CDCDAA3CF4BF8 /* GTPublicModule.podspec */,
+				210EF9779C35DEDD1B42FBC00CBE31F3 /* LICENSE */,
+				EC0CB0A87A419C71619D774FEF827BAA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3810137817EA04CE2E94B67896D3EB45 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				CB71A7261B59A6EC67189AE256D17595 /* UIBarButtonItem+GTBadge.h */,
+				A63075E55C3086625B2F111CC1D471E2 /* UIBarButtonItem+GTBadge.m */,
+				5D2BBB9D62B1A9A68F0C654D59462E5C /* UIBarButtonItem+GTKit.h */,
+				EDF1D078745A96175AAD66B562358BBB /* UIBarButtonItem+GTKit.m */,
+			);
+			name = UIBarButtonItem;
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		40EC85EB3EC3E3121D15CFEF17326387 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				92D3021FA88426548CB08A92067DBEBD /* UIImageView+GTBetterFace.h */,
+				977E93FBD17AAD9B7A6A78055E52EC9C /* UIImageView+GTBetterFace.m */,
+				FF4B7C7963BEC72CEC6F19328E58D2CB /* UIImageView+GTKit.h */,
+				04A67A5A2D5A7CB63207724B819779BB /* UIImageView+GTKit.m */,
+			);
+			name = UIImageView;
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45BC7327735019FC973830C4510D74EC /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				FB9ED523B4C41274B267FFDADD5B5485 /* CALayer+GTAnimation.h */,
+				FFEAA201B1DA0AFEB088369541E43EB5 /* CALayer+GTAnimation.m */,
+				01AE20EFA48564C5B8BE32C80B61A086 /* CALayer+GTKit.h */,
+				0AB07EA83E13AE32E7DEA0C5E55A3A59 /* CALayer+GTKit.m */,
+			);
+			name = CALayer;
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		518C5BAC5CAA855A086E1A368A466AB0 /* CLLocation */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4A921E89B4953922A46FF3320466B /* CLLocation+CH1903.h */,
+				CCF25BBBF4B54A84CF840A4A9412620C /* CLLocation+CH1903.m */,
+			);
+			name = CLLocation;
+			path = CLLocation;
+			sourceTree = "<group>";
+		};
+		52F9B6D7EB17395DA23D0A2CE2402FE4 /* Pods-GTPublicModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C0CE571609A44D14B05D0D9CA793960 /* Info.plist */,
+				B71813D581FA937368EEB178CB2A9FCC /* Pods-GTPublicModule_Tests.modulemap */,
+				0A36F0FE28FABB258969FF64A4E76CD6 /* Pods-GTPublicModule_Tests-acknowledgements.markdown */,
+				653EA2C93820BC2E92782132C8490F57 /* Pods-GTPublicModule_Tests-acknowledgements.plist */,
+				76D44F13738E8EA5C264E8A8E8B5FF58 /* Pods-GTPublicModule_Tests-dummy.m */,
+				5CFC3D352D6848E81BF58ED10B58448A /* Pods-GTPublicModule_Tests-frameworks.sh */,
+				4A0F650A67120868C70213BE3E1CE4A8 /* Pods-GTPublicModule_Tests-resources.sh */,
+				F25EC4432A72863D19364F660E1E3A6A /* Pods-GTPublicModule_Tests-umbrella.h */,
+				F69394EF8B6F76B4BE8C458C0F4331B4 /* Pods-GTPublicModule_Tests.debug.xcconfig */,
+				EBE05593155F35596469F41D6CEA9493 /* Pods-GTPublicModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTPublicModule_Tests";
+			path = "Target Support Files/Pods-GTPublicModule_Tests";
+			sourceTree = "<group>";
+		};
+		5943D908581FAEFD8862B4FE9B29CAB6 /* CAMediaTimingFunction */ = {
+			isa = PBXGroup;
+			children = (
+				BD4CBD3F4931C3A15AFBF7C33B1A0114 /* CAMediaTimingFunction+AdditionalEquations.h */,
+				080FCB8416AE05BD265BCF1725650C8C /* CAMediaTimingFunction+AdditionalEquations.m */,
+			);
+			name = CAMediaTimingFunction;
+			path = CAMediaTimingFunction;
+			sourceTree = "<group>";
+		};
+		62BE1ACEF6E12179FCD0E17D5B23F41D /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				4B64E78AEDD33A54978725D4A97920A9 /* UIWindow+GTKit.h */,
+				A258D9213ACDF4227DA897E33F024419 /* UIWindow+GTKit.m */,
+			);
+			name = UIWindow;
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		6B8F0A49E992D81AECAED6B4307042A4 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B97C6E095B8DCF2F0D3A1CD98335B67 /* UIViewController+GTKit.h */,
+				719929DDE420B916977863C599DA75F7 /* UIViewController+GTKit.m */,
+				39055D00912A0DEB05A997021333F396 /* UIViewController+GTStoreKit.h */,
+				1A337010E54EEAA97B406B973410430F /* UIViewController+GTStoreKit.m */,
+				4449CB0D472945D1442D29E35719F6C8 /* UIViewController+TopBarMessage.h */,
+				FF94C0000B6D9A095EABD051311D006A /* UIViewController+TopBarMessage.m */,
+			);
+			name = UIViewController;
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		6CEA3E6A91E6959171E11528D06CC555 /* UITextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				6F5628CC2504119E17F135E50F85D8BF /* UITextField+GTBlocks.h */,
+				805A494E43DDBFF82318DDD954F8890B /* UITextField+GTBlocks.m */,
+				A511A3D34F2277EEE52639DD31EFE837 /* UITextField+GTHistory.h */,
+				43AA27CB39C843D8F6715C6529FA9D01 /* UITextField+GTHistory.m */,
+				E39D949CFC30D03ED4F353D664131274 /* UITextField+GTKit.h */,
+				BB091E313BE1C995E20E9BCBB89A453C /* UITextField+GTKit.m */,
+			);
+			name = UITextFiled;
+			path = UITextFiled;
+			sourceTree = "<group>";
+		};
+		798A2970249814930357A1D3E4EBE98B /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				92AEAD78CEBD628A5EA3DCF5D392B168 /* UIFont+GTKit.h */,
+				2C85833A55966A8CB8CC86558B267C7A /* UIFont+GTKit.m */,
+			);
+			name = UIFont;
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		7B831C4654290DE1BB084B0DE9681DB4 /* Pods-GTPublicModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB0922D07886A704192A440485DC26CF /* Info.plist */,
+				914167DE1A6366805D7BC3AB4DECDC70 /* Pods-GTPublicModule_Example.modulemap */,
+				B2B5E34DEA7303F5CDC6447757FC0E81 /* Pods-GTPublicModule_Example-acknowledgements.markdown */,
+				AB254F8C87B08A3F0431B7478AA6C85E /* Pods-GTPublicModule_Example-acknowledgements.plist */,
+				CBF276FAD3C2A5A1E0957F03C9AF383F /* Pods-GTPublicModule_Example-dummy.m */,
+				968C2E557CB2954EE16BFB9251728620 /* Pods-GTPublicModule_Example-frameworks.sh */,
+				FA7A53F97166D4632D7DD670635F1C1D /* Pods-GTPublicModule_Example-resources.sh */,
+				F0BF487208E6351FE5A5F7A0243BD6E4 /* Pods-GTPublicModule_Example-umbrella.h */,
+				97E25BC111C3BA98906622301F54221E /* Pods-GTPublicModule_Example.debug.xcconfig */,
+				0F7C32B829D79D6053EFA8D5CE648A12 /* Pods-GTPublicModule_Example.release.xcconfig */,
+			);
+			name = "Pods-GTPublicModule_Example";
+			path = "Target Support Files/Pods-GTPublicModule_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				910AFE996F9C9CE66F691C0C612CD676 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0A1CD454691277EAC34A924EB24B6B74 /* Products */,
+				E3454A3D7BAEC7EE4C47F2DB460341FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		824C725DDD83082212301D57B306F515 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				154D4316BD3CB524CEF3845E7EE467E2 /* UITextView+GTKit.h */,
+				E7E55E3EA44BA91903236DD15DDC9EE9 /* UITextView+GTKit.m */,
+			);
+			name = UITextView;
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		8C94BD6FC0D472CE03514A8FCE0C3ABB /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				89966C6C959010E6F59336DCEBA40CDA /* UIApplication+GTKit.h */,
+				DB2B5C160E7D8963755EE7FAFBB6188A /* UIApplication+GTKit.m */,
+			);
+			name = UIApplication;
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		8E309BC43E22A1FE858089CCDEBF7F99 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5E07449D3EF1FC1E92AD93B7299DB067 /* UIScreen+GTKit.h */,
+				9F4E52331BCB88A76ED7554816F9FCAD /* UIScreen+GTKit.m */,
+			);
+			name = UIScreen;
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		8F94B0CE8A9D37DD69DED3431375F079 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				DA589AD99209ED7629E6D1CE855EA867 /* UIBezierPath+GTKit.h */,
+				C57B58557FE3A181F4E3F4C112494E4D /* UIBezierPath+GTKit.m */,
+				DA904DF231E5E6CA6690ECE2EF95273B /* UIBezierPath+GTLength.h */,
+				B8280AFB749BE83F1CF4ACA2B2735B8A /* UIBezierPath+GTLength.m */,
+				021805523872B2CF6F8BB42AE044FB88 /* UIBezierPath+GTSVGString.h */,
+				2C7676FC2C68353C94E9543B2C1B5B57 /* UIBezierPath+GTSVGString.m */,
+				3B2ABEB247BB085952F792ADC36CF528 /* UIBezierPath+GTSymbol.h */,
+				2A63D7698ABFD8EEA5B212E1D6F084B7 /* UIBezierPath+GTSymbol.m */,
+				EA3B95EFE85059001337FA44326FB157 /* UIBezierPath+GTThroughPointsBezier.h */,
+				D6CF3FC075D6C543537E7C72E0D32FE1 /* UIBezierPath+GTThroughPointsBezier.m */,
+			);
+			name = UIBezierPath;
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		910AFE996F9C9CE66F691C0C612CD676 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3BD83D8FAE9F8EA63F0FD6A5A74F647 /* GTPublicModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		96575F06F3AF03C68464C4BA5F656011 /* GTMacros */ = {
+			isa = PBXGroup;
+			children = (
+				B0E60E6C4F60162CEF76B6896F911FB0 /* GTCGCommon.h */,
+				99DAD206DF0A94698F3653B7A1C42CEE /* GTCGCommon.m */,
+				2D57EABD987720CD5AFC2FD27510B4BA /* GTCommon.h */,
+				012C1E9BDC1D3C317EDC7A5BF62F8981 /* GTFunctionCommon.h */,
+				542BBDBEA920A78C64F5E67B744561AC /* GTFunctionCommon.m */,
+				DCEF45AFF9E5DC6F52711687077398AA /* GTMacros.h */,
+				D0829647AC328FEF97E833ED722CCB64 /* GTSystemCommon.h */,
+				66F7CD5423A2C29957FA4F9D6884CF69 /* GTSystemCommon.m */,
+			);
+			name = GTMacros;
+			path = GTPublicModule/GTMacros;
+			sourceTree = "<group>";
+		};
+		9A6128F7E36455DCD576954D8D27F0F5 /* GTPublicTool */ = {
+			isa = PBXGroup;
+			children = (
+				6A90CA49AEB7FEFCE8022B366242D7B2 /* GTPublicTool.h */,
+				1A7FA64DE4D658FC9AF3268FC758275F /* GTRegularExpression */,
+			);
+			name = GTPublicTool;
+			path = GTPublicModule/GTPublicTool;
+			sourceTree = "<group>";
+		};
+		A1C961B9B9855642B9E98CCA18851368 /* UISplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5576F7A585AEE73B247070BD484107EA /* UISplitViewController+GTKit.h */,
+				FB05FEE1E821B5AA3F1BE353269B1767 /* UISplitViewController+GTKit.m */,
+			);
+			name = UISplitViewController;
+			path = UISplitViewController;
+			sourceTree = "<group>";
+		};
+		B3BD83D8FAE9F8EA63F0FD6A5A74F647 /* GTPublicModule */ = {
+			isa = PBXGroup;
+			children = (
+				7961C4CA361FB66685FB3A8E73ABC6C1 /* GTPublicModule.h */,
+				1CE5A1FACA5449D3C64A300B7D8FC48A /* GTCategory */,
+				96575F06F3AF03C68464C4BA5F656011 /* GTMacros */,
+				9A6128F7E36455DCD576954D8D27F0F5 /* GTPublicTool */,
+				2BAADD3E4C07CA112409AF24DDD5F940 /* Pod */,
+				EF93EAAAD248F0D3C91C2F1473D2A2BC /* Support Files */,
+			);
+			name = GTPublicModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B3F99D9BE945F5804F00349F628AED29 /* UITableView-GTTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				65BBFEF6A8CBB1093B007917BED5D232 /* UITableView+GTIndexPathHeightCache.h */,
+				1A3ED7AECB340DAA3025821B85501415 /* UITableView+GTIndexPathHeightCache.m */,
+				D33CA37DE4430ADED71C2E8011F3EFB1 /* UITableView+GTKeyedHeightCache.h */,
+				B67BC167E4E732D93236762D2E879EFC /* UITableView+GTKeyedHeightCache.m */,
+				32409AA9A0E9CC916C315AB72A1AC6BA /* UITableView+GTTemplateLayoutCell.h */,
+				7B907CBD937342C448C580F1B2CF61E4 /* UITableView+GTTemplateLayoutCell.m */,
+				C4ADE47E999612B306A5AE86D648411D /* UITableView+GTTemplateLayoutCellDebug.h */,
+				309CCB0130E0FDD3BA605C0B889BC8A8 /* UITableView+GTTemplateLayoutCellDebug.m */,
+			);
+			name = "UITableView-GTTemplateLayoutCell";
+			path = "UITableView-GTTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		B94AF0AF50952305C7BA6F8B923B042A /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				40324CFE54F2B907F66B5883F56E98C2 /* CAAnimation+Blocks.h */,
+				AB3CB6ABFE424105CF25B4425203DFE8 /* CAAnimation+Blocks.m */,
+				1960CCC14CAA2439074A0AF4496CA150 /* CAAnimation+EasingEquations.h */,
+				B0BA57271A8E583C4F25C47DC38773F6 /* CAAnimation+EasingEquations.m */,
+				39204AB2C876424B0E3821BA1F6FFC18 /* CABasicAnimation+GTKit.h */,
+				323D236950D45ADAF938A6A0415E2155 /* CABasicAnimation+GTKit.m */,
+			);
+			name = CAAnimation;
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		B98EE5B1D5424BD8260623A6B43E4CB9 /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				99719BBEB73B7D9BEFD5952A4FC4D317 /* GTQuartzCore.h */,
+				B94AF0AF50952305C7BA6F8B923B042A /* CAAnimation */,
+				45BC7327735019FC973830C4510D74EC /* CALayer */,
+				5943D908581FAEFD8862B4FE9B29CAB6 /* CAMediaTimingFunction */,
+				0206605C188059AFA359FDF92C9DD9B2 /* CATransaction */,
+			);
+			name = QuartzCore;
+			path = QuartzCore;
+			sourceTree = "<group>";
+		};
+		C547F9B65420BE52B5D6563796F24057 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				05ED04A04BDF0243DD8A73B208BE3D7E /* UIDevice+GTKit.h */,
+				75A947F6B900BFE998C4170740E85A4B /* UIDevice+GTKit.m */,
+			);
+			name = UIDevice;
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		D15296CA8D548C02DE3CAB5FDE18129B /* UITabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3AD9AC1B3FF69E244A1F9A727FCE8 /* UITabBar+GTBadge.h */,
+				E9479B2309745D91DBF8E773F2835D06 /* UITabBar+GTBadge.m */,
+				5C8DA6DFF72E885E435CAEE799DCA2C3 /* UITabBarController+GTKit.h */,
+				CFFB9AF758F0C3FA1E5C0BCCF5B17112 /* UITabBarController+GTKit.m */,
+				EDC49BAB71E09B36B72E827138E7335C /* UITabBarItem+GTKit.h */,
+				078D5530E2839F2640750BDD1C0E4A78 /* UITabBarItem+GTKit.m */,
+			);
+			name = UITabbar;
+			path = UITabbar;
+			sourceTree = "<group>";
+		};
+		E3454A3D7BAEC7EE4C47F2DB460341FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B831C4654290DE1BB084B0DE9681DB4 /* Pods-GTPublicModule_Example */,
+				52F9B6D7EB17395DA23D0A2CE2402FE4 /* Pods-GTPublicModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E481521749A14510B81FF3789EBE1E89 /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				C639CBCA2B5A35E667B4823C76400A0C /* UIResponder+GTKit.h */,
+				6CDEBB71A288954C7301ADD5F899C829 /* UIResponder+GTKit.m */,
+			);
+			name = UIResponder;
+			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		E5CB6B8DD66E818AEC67AE735F15EEA9 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				07687BAEB48C7BE998F83A3EBEF642D6 /* UIColor+GTKit.h */,
+				6C169F4615B196E74665C62ABFEF8B65 /* UIColor+GTKit.m */,
+			);
+			name = UIColor;
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E8ACC0FE7A0F3135FB414207C069BCA1 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				55E0967293FD7D34F4E32D78EEEE0117 /* GTMapKit.h */,
+				7AECA0D81AB1DB7E5A42BE02FF1CA0AE /* MKMapView+BetterMaps.h */,
+				34F9A1C7895E0059FDC3F227A7F4B33C /* MKMapView+BetterMaps.m */,
+				968EBC72D37E555D0AB8EE7F51853D2E /* MKMapView+MoveLogo.h */,
+				D37DF656B876A8F6550C51A64320152C /* MKMapView+MoveLogo.m */,
+				40113908B67E420DCA3ED129C9757EB6 /* MKMapView+ZoomLevel.h */,
+				0307AAA25AB44354290C217D53EBD980 /* MKMapView+ZoomLevel.m */,
+			);
+			name = MapKit;
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		EF93EAAAD248F0D3C91C2F1473D2A2BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE445589EC74AB857224EEE9717A51BE /* GTPublicModule.modulemap */,
+				3C922D649ACAB6C3BD7630C39C959F88 /* GTPublicModule.xcconfig */,
+				3716E575AA94C26AC9C6ABC34345D13A /* GTPublicModule-dummy.m */,
+				29A20B00D1F32AC977CE009CB0E0E412 /* GTPublicModule-prefix.pch */,
+				B8BA374EB240FC93C13DCA9FEBF01581 /* GTPublicModule-umbrella.h */,
+				99FAED096F845D128233CCC3D74A302C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTPublicModule";
+			sourceTree = "<group>";
+		};
+		F12B04C95D473343C8C1D06E4346A589 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC283DE528A922F15D44F9AD87DA89 /* UICollectionViewCell+GTTemplateLayoutCell.h */,
+				84A015D63FC29612FE36A77B44064F07 /* UICollectionViewCell+GTTemplateLayoutCell.m */,
+			);
+			name = UICollectionViewCell;
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F3D5EC67CE1CB13F2F16FEEE8F7F06E0 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				78092064DE18F9D8E6823D1973D3EC49 /* UIGestureRecognizer+GTKit.h */,
+				2275E0490C1FDF6B6104DBFF488ECAF7 /* UIGestureRecognizer+GTKit.m */,
+				8823B9E93159382907E70C343B0E3972 /* UIGestureRecognizer+GTOpertation.h */,
+				EE6FDF74A7C2659E411354EB22E3E4DC /* UIGestureRecognizer+GTOpertation.m */,
+			);
+			name = UIGestureRecognizer;
+			path = UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		F5BCD0F1EA0BBAD4ABF408E68D7112AF /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				434B65650329582CDC021C0D3BB8602D /* UIImage+GTBetterFace.h */,
+				8BDE5AF6609C7C7D34FD9128B85A7A7B /* UIImage+GTBetterFace.m */,
+				04920FFC71133437CCA30C3FBA04E0D4 /* UIImage+GTGIF.h */,
+				79C6B27395C503DBBC3B2EBBFAD9B937 /* UIImage+GTGIF.m */,
+				FCBF34A78AB284C9B67F4A044345F687 /* UIImage+GTKit.h */,
+				114675161FF1698F140170D66CC59B04 /* UIImage+GTKit.m */,
+			);
+			name = UIImage;
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		F93244B7B082D56B7A38D76A3825E440 /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0675363E431096B23386C47E12455F61 /* GTCoreLocation.h */,
+				518C5BAC5CAA855A086E1A368A466AB0 /* CLLocation */,
+				1EE656D97D6C1492C51102BDFA6391E4 /* CLLocationManager */,
+			);
+			name = CoreLocation;
+			path = CoreLocation;
+			sourceTree = "<group>";
+		};
+		F93D1D0EBCD3B9FCDA0FC1CF860F5431 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				902E19B080BA3545F1DC88612AA246AB /* UITableView+GTKit.h */,
+				B21D831315E64A6A84B59D6D702B706D /* UITableView+GTKit.m */,
+			);
+			name = UITableView;
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		FA90882BAC3A8E9A70225E7DDD4B8361 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7828394663F4661F6B40832DF33D9BE9 /* GTUIKit.h */,
+				8C94BD6FC0D472CE03514A8FCE0C3ABB /* UIApplication */,
+				3810137817EA04CE2E94B67896D3EB45 /* UIBarButtonItem */,
+				8F94B0CE8A9D37DD69DED3431375F079 /* UIBezierPath */,
+				09BCFF021561155546A133320B02222D /* UIButton */,
+				F12B04C95D473343C8C1D06E4346A589 /* UICollectionViewCell */,
+				E5CB6B8DD66E818AEC67AE735F15EEA9 /* UIColor */,
+				17FDA8FD04F4AD3F67C6D65286872E51 /* UIControl */,
+				C547F9B65420BE52B5D6563796F24057 /* UIDevice */,
+				798A2970249814930357A1D3E4EBE98B /* UIFont */,
+				F3D5EC67CE1CB13F2F16FEEE8F7F06E0 /* UIGestureRecognizer */,
+				F5BCD0F1EA0BBAD4ABF408E68D7112AF /* UIImage */,
+				40EC85EB3EC3E3121D15CFEF17326387 /* UIImageView */,
+				E481521749A14510B81FF3789EBE1E89 /* UIResponder */,
+				8E309BC43E22A1FE858089CCDEBF7F99 /* UIScreen */,
+				072A6D4CD07F95D3F122F52D2890C6DE /* UIScrollView */,
+				A1C961B9B9855642B9E98CCA18851368 /* UISplitViewController */,
+				D15296CA8D548C02DE3CAB5FDE18129B /* UITabbar */,
+				F93D1D0EBCD3B9FCDA0FC1CF860F5431 /* UITableView */,
+				207B1D0BDD8704B18A90D53E4A3E4E94 /* UITableViewCell */,
+				6CEA3E6A91E6959171E11528D06CC555 /* UITextFiled */,
+				824C725DDD83082212301D57B306F515 /* UITextView */,
+				0DAAFA149194A662251F1C57D0DABCF0 /* UIView */,
+				6B8F0A49E992D81AECAED6B4307042A4 /* UIViewController */,
+				62BE1ACEF6E12179FCD0E17D5B23F41D /* UIWindow */,
+			);
+			name = UIKit;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BBFB32A3C2259002D989D692455178AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD95B62339A7898F32E5D7187247AA72 /* CAAnimation+Blocks.h in Headers */,
+				80459F4D520827C48B97F11718AA2B65 /* CAAnimation+EasingEquations.h in Headers */,
+				2DB25385B260996362C44227ACEB6023 /* CABasicAnimation+GTKit.h in Headers */,
+				40F6AF9D82DD1CD61D9921442D3D815E /* CALayer+GTAnimation.h in Headers */,
+				4B97844D1494A97E12B6A87A27E0201D /* CALayer+GTKit.h in Headers */,
+				DFFC172C94D21CA94C80BDB6D34AEFF9 /* CAMediaTimingFunction+AdditionalEquations.h in Headers */,
+				39989FB0E1F00E06B90C94FF8BF654D0 /* CATransaction+AnimateWithDuration.h in Headers */,
+				3810AC2EF61FE17D55FE140EBBB4E3AE /* CLLocation+CH1903.h in Headers */,
+				F7C876AC6A934720FF000042B759BC19 /* CLLocationManager+Blocks.h in Headers */,
+				202FFD562FE01C0D8139A01710ABC5AF /* GTCategory.h in Headers */,
+				908B82E230A9094BC18A0C0A626C3DA4 /* GTCGCommon.h in Headers */,
+				500D0846CE266553F526CAE7EFAED5E4 /* GTCommon.h in Headers */,
+				E0F740735B29791400D6D3C61409070F /* GTCoreLocation.h in Headers */,
+				A3E4F6B82AD05E6EDF70151F003C49EF /* GTFoundation.h in Headers */,
+				2E62FC93A70575B1DD40A5539DDA7FBA /* GTFunctionCommon.h in Headers */,
+				EEE8EC7FC6F29699F3DDC26BD1F4D22C /* GTMacros.h in Headers */,
+				F86697D0BDEAEA87EC608D3F1A1C5D0B /* GTMapKit.h in Headers */,
+				AF05E33D399DBAD2C2A6009589661566 /* GTPublicModule-umbrella.h in Headers */,
+				7F6F0D50E194BE8C57DFBD5AACB84A8F /* GTPublicModule.h in Headers */,
+				B4AE39DC83A2809F6A82CB54A42CDB8E /* GTPublicTool.h in Headers */,
+				3293F00281DDC0DDC758167CC4AA6B88 /* GTQuartzCore.h in Headers */,
+				344DF7DDBC696DA85777F1E0EA513AFC /* GTRegularExpression.h in Headers */,
+				4B8EB72018B1545AA978DD5D40A930FC /* GTSystemCommon.h in Headers */,
+				2CDFE68A3B7092EA5BC6515DF333DFF0 /* GTUIKit.h in Headers */,
+				704A96D60789A6124BE2A1152D5D792F /* MKMapView+BetterMaps.h in Headers */,
+				F7B6F63AC3475418349F27FB54315BD4 /* MKMapView+MoveLogo.h in Headers */,
+				F690ED28653B1C631B0C50901FA96874 /* MKMapView+ZoomLevel.h in Headers */,
+				6B3082A34433EAB8C501A9054CFF76D7 /* NSArray+GTKit.h in Headers */,
+				F281CE95106B5C6A737D0ADEC7EDF612 /* NSBundle+GTKit.h in Headers */,
+				5873ED9281C03FB20E9EAECE588BF5AD /* NSData+GTKit.h in Headers */,
+				A1D47F0C557338A0C6EF8166B3BFA7AB /* NSDate+GTInternetDateTime.h in Headers */,
+				EE9ABB22300DBE267BFA2B351781C492 /* NSDate+GTKit.h in Headers */,
+				DE51EF13E65273DCCCC74AAFF1CB4F7A /* NSDictionary+GTKit.h in Headers */,
+				DB721830632D7A2AD0E00C923AF6115B /* NSFileManager+GTKit.h in Headers */,
+				0C9FB70EB494069E42BFFF8E9DD99679 /* NSIndexPath+GTKit.h in Headers */,
+				6E66EC797B0F037828577BC24732F2B6 /* NSKeyedUnarchiver+GTKit.h in Headers */,
+				A792835A364D2EB4C934496780A9D267 /* NSNotificationCenter+GTKit.h in Headers */,
+				679A82BC38E9B2AB47EE3AEB7D53D6E1 /* NSNumber+GTKit.h in Headers */,
+				9AF229AD431E0188B4B81EC3CE1E828B /* NSObject+GTKit.h in Headers */,
+				3001B5B88087EEF423F03358B2F6043F /* NSObject+GTKVOBlock.h in Headers */,
+				BA8B5AB54E7A8FEB1F9384905828841E /* NSObject+GTReflection.h in Headers */,
+				C69BC019A890DD8D937BC63844A8F505 /* NSRunLoop+GTKit.h in Headers */,
+				27FF14CDA5105C5557ED8C43F270AE16 /* NSSet+GTKit.h in Headers */,
+				11A3BBBBDB4E89D0E1B1F46FEB1A6358 /* NSString+GTEmoji.h in Headers */,
+				969500F14637FFCBE01073267FAA567F /* NSString+GTKit.h in Headers */,
+				6CBCEDB7DACC507DE62E3E15EDFB8E3D /* NSString+GTStringPages.h in Headers */,
+				254696D574D3316509040C4DC5F636ED /* NSTimer+GTKit.h in Headers */,
+				32627ECB189D36C4FC62CF09CED245A1 /* NSUserDefaults+GTKit.h in Headers */,
+				FBF3FD1D5653A343CA009DD66E9E6A32 /* UIApplication+GTKit.h in Headers */,
+				E436ACE3E5644305F57F6C82807DCE90 /* UIBarButtonItem+GTBadge.h in Headers */,
+				207FABC19A44960A6A2762119D581FC9 /* UIBarButtonItem+GTKit.h in Headers */,
+				E08D96C971EF7096991AE1EB68ED0E01 /* UIBezierPath+GTKit.h in Headers */,
+				1FDF1001A203C6AD2BB9422075C2B2D6 /* UIBezierPath+GTLength.h in Headers */,
+				E2E830919273163D352F445F39BC14D3 /* UIBezierPath+GTSVGString.h in Headers */,
+				ADCB4E3E55E4886C1446DC69FE89562B /* UIBezierPath+GTSymbol.h in Headers */,
+				6AB61D3346FCF0F29B00534E713ED4DD /* UIBezierPath+GTThroughPointsBezier.h in Headers */,
+				6400FAA739147B65D29E9BA68F6DC10A /* UIButton+GTBadge.h in Headers */,
+				5F767BD7F1D9817A4617DE62AA9AFDE8 /* UIButton+GTButton.h in Headers */,
+				FA491791AB208B90B09EBFB3C584010C /* UIButton+GTCountDown.h in Headers */,
+				933E8C717D5DBA93B69A6CE17C2261B6 /* UIButton+GTKit.h in Headers */,
+				468402BC8B5CF635FFC8165C6B97EDAA /* UIButton+GTState.h in Headers */,
+				373C02338FCF7445450B38B0A91B0787 /* UIButton+GTSubmitting.h in Headers */,
+				13D631E2AD2CDAB841D020769B3B65FD /* UICollectionViewCell+GTTemplateLayoutCell.h in Headers */,
+				5A73308EDC6093889BC181A14E314852 /* UIColor+GTKit.h in Headers */,
+				0D2834ED77706D1F519EE97F4B736445 /* UIControl+GTBlock.h in Headers */,
+				89A9CE3CE155DE712329A732440C8551 /* UIControl+GTKit.h in Headers */,
+				844EF8D9795FF9360D9D0D791EA97662 /* UIControl+GTSound.h in Headers */,
+				77C2E0F5CEB9AA507D1A283540E33F25 /* UIDevice+GTKit.h in Headers */,
+				CCA42D9B0CF7A68658B236A27465759A /* UIFont+GTKit.h in Headers */,
+				255EE51EF7AF0F6609A9BB4A8218575F /* UIGestureRecognizer+GTKit.h in Headers */,
+				EF2D710582CCCE7D0C08526335C8DF65 /* UIGestureRecognizer+GTOpertation.h in Headers */,
+				2BE5A33DDADB3FE00B9D6C48213817BC /* UIImage+GTBetterFace.h in Headers */,
+				55A3FD2AA0F44EC0765A0E4E478E01CF /* UIImage+GTGIF.h in Headers */,
+				BF1C677412542248BF6676CE0362C4DD /* UIImage+GTKit.h in Headers */,
+				389FA7F25F3BCA0FE356322CA27DDB0A /* UIImageView+GTBetterFace.h in Headers */,
+				FBAC484F3F0CBA880B8AA793DE52A152 /* UIImageView+GTKit.h in Headers */,
+				01AFC5F2388D35DF290BE758EC9EEBC4 /* UIResponder+GTKit.h in Headers */,
+				E9373D34D63C8EF503753C2985F73377 /* UIScreen+GTKit.h in Headers */,
+				887BD635EFEB76769F1666DE0E83AFA6 /* UIScrollView+APParallaxHeader.h in Headers */,
+				38D769F757A831041319465CE9A4924A /* UIScrollView+GTKit.h in Headers */,
+				3BE62458198F1408E44FE1C2E4ABEF05 /* UISplitViewController+GTKit.h in Headers */,
+				71124E1C61CC2C496A1751E694212049 /* UITabBar+GTBadge.h in Headers */,
+				8871008C1808221A6CB84E4A386AECD4 /* UITabBarController+GTKit.h in Headers */,
+				6FCD13A9D5C2BE616FC2C81B60BB5F02 /* UITabBarItem+GTKit.h in Headers */,
+				52569A61484321181FFAD29C6F443644 /* UITableView+GTIndexPathHeightCache.h in Headers */,
+				EF498F0DD072177A806418628CF30629 /* UITableView+GTKeyedHeightCache.h in Headers */,
+				E08B75A48A1419008D18047AF88E0238 /* UITableView+GTKit.h in Headers */,
+				AA4882D25E211CA3F6BF949FAFF3E953 /* UITableView+GTTemplateLayoutCell.h in Headers */,
+				5D761AE6EA2679FF67B60B126B0B5C6D /* UITableView+GTTemplateLayoutCellDebug.h in Headers */,
+				3A9CDA09557BE62A43DC8F14A8F84724 /* UITableViewCell+GTKit.h in Headers */,
+				948AEE07622350F72EC6849EF1453C6F /* UITextField+GTBlocks.h in Headers */,
+				8412CB750B458C6F480EA008335C2F8B /* UITextField+GTHistory.h in Headers */,
+				4F7A850C0E201082712C1F0894B2020C /* UITextField+GTKit.h in Headers */,
+				590F811DE02D08D27928CC0B880FA453 /* UITextView+GTKit.h in Headers */,
+				53178A016FECED4ED1A80FE3ADDEF67B /* UIView+Genie.h in Headers */,
+				A4C2DDDEB6C372C9C45F9456DF2EB70A /* UIView+GTAnimation.h in Headers */,
+				124B26DD14807C37CCB1329EFEB815FF /* UIView+GTConstraints.h in Headers */,
+				2F74FCAC249C8B1EA48FA7DF70339E53 /* UIView+GTDraggable.h in Headers */,
+				DF1E444D43DC0E41CBA226A220EA3354 /* UIView+GTGesture.h in Headers */,
+				E8AD2BE04368AD07865AB6CAA06345EC /* UIView+GTGlowView.h in Headers */,
+				AEFE7C6AD211FAFEF94A670D85218FDB /* UIView+GTKit.h in Headers */,
+				B7B6443459B3BAB42F5B3336F8AE757D /* UIView+GTStyle.h in Headers */,
+				01A2C494C5795FC4146A8E450D882B85 /* UIView+GTToast.h in Headers */,
+				AF45C0964A483A834B4FCF78AEB8FE41 /* UIView+GTTransition.h in Headers */,
+				84940B61F2CAF3DC512FDD3DF8E2E85D /* UIViewController+GTKit.h in Headers */,
+				D3ED5BAF5494D82DAA6A570B1F08BE97 /* UIViewController+GTStoreKit.h in Headers */,
+				4D4D34B9047E1DB632B6AC2768DB9E3A /* UIViewController+TopBarMessage.h in Headers */,
+				7A487EE22DA6968D4F2DE118CD5A16B0 /* UIWindow+GTKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CDA5187E0379415013DF2E9CC0340F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57AC2AD366160ECE1C8C19DA874C900 /* Pods-GTPublicModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6695A7D8D82CFA063ED7F7985EE0E35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE1D25F6AA8AAB54DB490CBB4C36B8 /* Pods-GTPublicModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		674060988EE9EF36FA88B2635C121E42 /* Pods-GTPublicModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD52C1B281333B8D8B503CAC12C0820 /* Build configuration list for PBXNativeTarget "Pods-GTPublicModule_Tests" */;
+			buildPhases = (
+				17601915715AFF7C91F8F1D24C005B7C /* Sources */,
+				8AD0C7C7EC16320A5446E6355B018371 /* Frameworks */,
+				F6695A7D8D82CFA063ED7F7985EE0E35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A465F58E3786E39E6F48DAE27ECF634 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTPublicModule_Tests";
+			productName = "Pods-GTPublicModule_Tests";
+			productReference = 74A8F79A3AD31EB6D125BEF658B8ABDB /* Pods_GTPublicModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F7707767CD70CA7866FB76A509F5144 /* GTPublicModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9EFD97EF1C2B0916C3058161130E79 /* Build configuration list for PBXNativeTarget "GTPublicModule" */;
+			buildPhases = (
+				74590AF5009F7CAD20EB8B34E23D4012 /* Sources */,
+				9BC1B85CCBEB5D1A9C2C46B2DFA57D1C /* Frameworks */,
+				BBFB32A3C2259002D989D692455178AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTPublicModule;
+			productName = GTPublicModule;
+			productReference = E7FD547EF93911F89D363C20653DC094 /* GTPublicModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1054C5B8DAD8D34D0EF02D04A89CA0A /* Pods-GTPublicModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29497E3AD9A5D0E3EE116F074E9B035 /* Build configuration list for PBXNativeTarget "Pods-GTPublicModule_Example" */;
+			buildPhases = (
+				7B86272DCCE824477924EA8B0E9262A5 /* Sources */,
+				F4C5E16A76F0C2BF446AA64FCE12D99A /* Frameworks */,
+				D0CDA5187E0379415013DF2E9CC0340F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11E2E386CB07C407F221FD6C65956687 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTPublicModule_Example";
+			productName = "Pods-GTPublicModule_Example";
+			productReference = 92E10F41A832964870317CC2FBF63A67 /* Pods_GTPublicModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A1CD454691277EAC34A924EB24B6B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7707767CD70CA7866FB76A509F5144 /* GTPublicModule */,
+				F1054C5B8DAD8D34D0EF02D04A89CA0A /* Pods-GTPublicModule_Example */,
+				674060988EE9EF36FA88B2635C121E42 /* Pods-GTPublicModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17601915715AFF7C91F8F1D24C005B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C5E9FD64B97F4AD3FE16E233E27515 /* Pods-GTPublicModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74590AF5009F7CAD20EB8B34E23D4012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31DEC97D38527B70F3B3FBC53D4DF09 /* CAAnimation+Blocks.m in Sources */,
+				06700CDAD6363D9B441F8EE2B20AAEF8 /* CAAnimation+EasingEquations.m in Sources */,
+				1B0DDFBD4D7589284E5D52595EB751AF /* CABasicAnimation+GTKit.m in Sources */,
+				F6C108122E426BF8C7626F72C299A564 /* CALayer+GTAnimation.m in Sources */,
+				55A1641E5869CCAD570F48AE26890EF3 /* CALayer+GTKit.m in Sources */,
+				970088FE36D883827B2A36DC0738C7EC /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
+				7DEF74ACA03317FBD539623CD2FD45CE /* CATransaction+AnimateWithDuration.m in Sources */,
+				6801BE519731B924A23E163561F3F562 /* CLLocation+CH1903.m in Sources */,
+				F0094197AED1C69B24BA5CACACA326C1 /* CLLocationManager+Blocks.m in Sources */,
+				FA6BFDB03A1FBAF0E9AE1ABA5C657D9A /* GTCGCommon.m in Sources */,
+				3666979F5FE4EC61DB5A3B05112A46E8 /* GTFunctionCommon.m in Sources */,
+				3B7705C2D3EF2582497871DCA9DAA75E /* GTPublicModule-dummy.m in Sources */,
+				4B0F54917CAF7EBB2A85914A87274FD1 /* GTRegularExpression.m in Sources */,
+				8F021E2F3E4FB260994994114056A1AE /* GTSystemCommon.m in Sources */,
+				B032FC449535A9F1EB6D8C9449EC6E76 /* MKMapView+BetterMaps.m in Sources */,
+				121B106744E812294F00E2875B96B026 /* MKMapView+MoveLogo.m in Sources */,
+				2B90263AF749EB966CEE134A0C0EE0CE /* MKMapView+ZoomLevel.m in Sources */,
+				A82C239CCFE00C16F3F81A03C312DF30 /* NSArray+GTKit.m in Sources */,
+				09EEA7109BA2F52E1090C8E4D378053C /* NSBundle+GTKit.m in Sources */,
+				EC0BD6D2BB8A852E33794C4557B382EC /* NSData+GTKit.m in Sources */,
+				542BDBA3AFF42B5E12DA9EBC491463D6 /* NSDate+GTInternetDateTime.m in Sources */,
+				EA71A503D9703CC0EB39EC462ADD05FD /* NSDate+GTKit.m in Sources */,
+				05641BEDBD72942C8DB819FB27F21D2D /* NSDictionary+GTKit.m in Sources */,
+				371708388012061658DA52B34593F8C7 /* NSFileManager+GTKit.m in Sources */,
+				DCC2F23AEE85CC8B33FE033C821FCD59 /* NSIndexPath+GTKit.m in Sources */,
+				926F0CA069A7F433031CDE69BFCEFC30 /* NSKeyedUnarchiver+GTKit.m in Sources */,
+				C3485AF2A4694E76F728837187A2DF3A /* NSNotificationCenter+GTKit.m in Sources */,
+				87FBEED1E4832E6279B8F71122CC13A6 /* NSNumber+GTKit.m in Sources */,
+				4FC06884E4EC4EB28ADB04F595AB07AF /* NSObject+GTKit.m in Sources */,
+				C128F78F62544CF8A5CDE68F0765CD58 /* NSObject+GTKVOBlock.m in Sources */,
+				35BA8475D9C64A117FA07E2604BD04F5 /* NSObject+GTReflection.m in Sources */,
+				8CF933DABCF456D08870C739C4E11F74 /* NSRunLoop+GTKit.m in Sources */,
+				A3386B3596BEFD67167CF36725C9529C /* NSSet+GTKit.m in Sources */,
+				8A21A433FB21E8EE02CDCFC944C2CD92 /* NSString+GTEmoji.m in Sources */,
+				12FD765B0C16C8B49F0B0C9DBDEF8AA3 /* NSString+GTKit.m in Sources */,
+				8B5FC202C524BF25AA6BD884ECD3181D /* NSString+GTStringPages.m in Sources */,
+				1C69DF206089D3E13B5915BCF5815408 /* NSTimer+GTKit.m in Sources */,
+				670F2BD3F85B60A5D9F7DFC62826E63A /* NSUserDefaults+GTKit.m in Sources */,
+				472844ED476C0743419E99344E8D978F /* UIApplication+GTKit.m in Sources */,
+				3B9139415608B82DF383C0E65C0D4FEC /* UIBarButtonItem+GTBadge.m in Sources */,
+				BE3B8A82D29C743DEBFF9D5A3663885E /* UIBarButtonItem+GTKit.m in Sources */,
+				FE5A823D3D0525DEC0130FACF5857E47 /* UIBezierPath+GTKit.m in Sources */,
+				FB736A0DAC8D18736AF3FD31CD864E7A /* UIBezierPath+GTLength.m in Sources */,
+				457DE50261E4CF95294C1D308EAC3854 /* UIBezierPath+GTSVGString.m in Sources */,
+				C9D621C871A271C1DFC30D429F73745C /* UIBezierPath+GTSymbol.m in Sources */,
+				46299848B3C96AE26982CCD7DDE8FA47 /* UIBezierPath+GTThroughPointsBezier.m in Sources */,
+				E124B27B759EAC176356858F7AA3F50D /* UIButton+GTBadge.m in Sources */,
+				1F3853273CBFFF413A9ECF615CD3F5F0 /* UIButton+GTButton.m in Sources */,
+				7F0C3710AB767AC6CF915466EAB537CC /* UIButton+GTCountDown.m in Sources */,
+				DC0EC19A9217AE724B87D4F2DA47B266 /* UIButton+GTKit.m in Sources */,
+				2367FB2807E72485AC2BF8756BB9E7B5 /* UIButton+GTState.m in Sources */,
+				CCE9624067551206D584F5DF14D389AC /* UIButton+GTSubmitting.m in Sources */,
+				0D3F2072500482628BF0A7B6E43361D2 /* UICollectionViewCell+GTTemplateLayoutCell.m in Sources */,
+				721E9053E90C0CAD56EE46BBDABF21EC /* UIColor+GTKit.m in Sources */,
+				8A69A5C75F0F8ED677BADCBAD1C732E8 /* UIControl+GTBlock.m in Sources */,
+				E236B80E0334999BEF5028E97B5441C8 /* UIControl+GTKit.m in Sources */,
+				DD1D0E9F379EBC874210DC4ECA955D2F /* UIControl+GTSound.m in Sources */,
+				76619825B66F70E5C6B45D6980F8E82A /* UIDevice+GTKit.m in Sources */,
+				58EC2F1AB356553C3943A99DC638D384 /* UIFont+GTKit.m in Sources */,
+				C4D4702F90AC5FE394035B24E718F750 /* UIGestureRecognizer+GTKit.m in Sources */,
+				0CD18BAB845A4D82241FDB5F02BC69DE /* UIGestureRecognizer+GTOpertation.m in Sources */,
+				78A8FB5711E6A8B95BB7D78E911DA4CE /* UIImage+GTBetterFace.m in Sources */,
+				0CDB44719001F662EBD8531F3DB48E4C /* UIImage+GTGIF.m in Sources */,
+				3357E3979C7814F12A136FC9BE28D0BC /* UIImage+GTKit.m in Sources */,
+				4A2A31E183B8BA1E468E2ABAD5DB4B11 /* UIImageView+GTBetterFace.m in Sources */,
+				E8482C4D9C741BB64DF12E69AD4DD1CE /* UIImageView+GTKit.m in Sources */,
+				B13428518E96A9C40BFE4F047A9F2A2F /* UIResponder+GTKit.m in Sources */,
+				88DC9E6304CC1E40D3C26EBF53DCC444 /* UIScreen+GTKit.m in Sources */,
+				12B5DBDDF1FE741F1A4F37E790ADA5C5 /* UIScrollView+APParallaxHeader.m in Sources */,
+				E6F92D9FEB13084DFACA11F7F69D6967 /* UIScrollView+GTKit.m in Sources */,
+				07449C6B32A595433F67BD8818D846B8 /* UISplitViewController+GTKit.m in Sources */,
+				6B4B4A2E4C7D95FCA7BB51D025B32726 /* UITabBar+GTBadge.m in Sources */,
+				438EA73BD2BB729BFBEA4E308A1ECDC1 /* UITabBarController+GTKit.m in Sources */,
+				1C5658DDBCA5D0DF55589DD39D0DD5AB /* UITabBarItem+GTKit.m in Sources */,
+				63E81EA3ECA979D0DB31872E494006DB /* UITableView+GTIndexPathHeightCache.m in Sources */,
+				96A22007290DD77FECEAEAD46B5672D7 /* UITableView+GTKeyedHeightCache.m in Sources */,
+				8822123F71BEBA53AC12905964C020A7 /* UITableView+GTKit.m in Sources */,
+				21F1FE6EE5258190144833042FA3EA16 /* UITableView+GTTemplateLayoutCell.m in Sources */,
+				27753C4D368533AAC9C65FE823A30AC1 /* UITableView+GTTemplateLayoutCellDebug.m in Sources */,
+				7FA48124D0A680384734B236C4314CFE /* UITableViewCell+GTKit.m in Sources */,
+				84161A2032F1DFCB09B8A487DA0C8C75 /* UITextField+GTBlocks.m in Sources */,
+				648214E4EC187811E664415941CAEC9C /* UITextField+GTHistory.m in Sources */,
+				B4D0510AE1B12AA6A6F2BB97667841DD /* UITextField+GTKit.m in Sources */,
+				BC2A41278CF805C28A958649B41E05FE /* UITextView+GTKit.m in Sources */,
+				C27BF84234B252CA2F76E4C176F62F30 /* UIView+Genie.m in Sources */,
+				1E6CA3AA3FA23C9922390B2401469563 /* UIView+GTAnimation.m in Sources */,
+				21C45A3BA2205479840FB4F6C46D3EE9 /* UIView+GTConstraints.m in Sources */,
+				130D8C72C6B515FB555DD3B7B0CBCB81 /* UIView+GTDraggable.m in Sources */,
+				19B3DA5F53160E57A256639ECA2F71C8 /* UIView+GTGesture.m in Sources */,
+				EA24D781B8B3C6C90B765304B145B56E /* UIView+GTGlowView.m in Sources */,
+				7F1C53142BF272C6F1D5845E55F488B3 /* UIView+GTKit.m in Sources */,
+				C144501761157DAD7769808B4B02F696 /* UIView+GTStyle.m in Sources */,
+				D5FAECF03488225D1700CCD177FA8CE1 /* UIView+GTToast.m in Sources */,
+				3FF65DABCC1E1F24F4E681A05F40FFFC /* UIView+GTTransition.m in Sources */,
+				B5D8DE9B4A16A8FEF21C433009ED44E7 /* UIViewController+GTKit.m in Sources */,
+				F71A681DDE962AC44CE56666E460A9B8 /* UIViewController+GTStoreKit.m in Sources */,
+				BF0C5B95831071BEC7121B3D29CDB5BB /* UIViewController+TopBarMessage.m in Sources */,
+				E528BEE4A8ABB51E5EE2A852EB729A23 /* UIWindow+GTKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B86272DCCE824477924EA8B0E9262A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB33FDA3A7051AFD84993EE51522BEC /* Pods-GTPublicModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11E2E386CB07C407F221FD6C65956687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTPublicModule;
+			target = 8F7707767CD70CA7866FB76A509F5144 /* GTPublicModule */;
+			targetProxy = E013699FFCB29BA41591F6B9AD832D2A /* PBXContainerItemProxy */;
+		};
+		8A465F58E3786E39E6F48DAE27ECF634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTPublicModule_Example";
+			target = F1054C5B8DAD8D34D0EF02D04A89CA0A /* Pods-GTPublicModule_Example */;
+			targetProxy = 04047E6E7C6A11991B2B954B676DCBFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0659F60960B470F3572B8D4C20E13A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7C32B829D79D6053EFA8D5CE648A12 /* Pods-GTPublicModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTPublicModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTPublicModule_Example/Pods-GTPublicModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A7B66AFD3199BDD595FD6ACD42651E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C922D649ACAB6C3BD7630C39C959F88 /* GTPublicModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTPublicModule/GTPublicModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTPublicModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTPublicModule/GTPublicModule.modulemap";
+				PRODUCT_MODULE_NAME = GTPublicModule;
+				PRODUCT_NAME = GTPublicModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2DDC58CCF94660BE0EC2593BAD8CA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C922D649ACAB6C3BD7630C39C959F88 /* GTPublicModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTPublicModule/GTPublicModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTPublicModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTPublicModule/GTPublicModule.modulemap";
+				PRODUCT_MODULE_NAME = GTPublicModule;
+				PRODUCT_NAME = GTPublicModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD24843EAB22A419FA5B3C0E2CAD69A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E25BC111C3BA98906622301F54221E /* Pods-GTPublicModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTPublicModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTPublicModule_Example/Pods-GTPublicModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE6ED61B36792AE1E8D00D1A2F934563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE05593155F35596469F41D6CEA9493 /* Pods-GTPublicModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTPublicModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTPublicModule_Tests/Pods-GTPublicModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D758A45A86A9EF239991577C9C641842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69394EF8B6F76B4BE8C458C0F4331B4 /* Pods-GTPublicModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTPublicModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTPublicModule_Tests/Pods-GTPublicModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD52C1B281333B8D8B503CAC12C0820 /* Build configuration list for PBXNativeTarget "Pods-GTPublicModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D758A45A86A9EF239991577C9C641842 /* Debug */,
+				CE6ED61B36792AE1E8D00D1A2F934563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9EFD97EF1C2B0916C3058161130E79 /* Build configuration list for PBXNativeTarget "GTPublicModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7B66AFD3199BDD595FD6ACD42651E3 /* Debug */,
+				A2DDC58CCF94660BE0EC2593BAD8CA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29497E3AD9A5D0E3EE116F074E9B035 /* Build configuration list for PBXNativeTarget "Pods-GTPublicModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD24843EAB22A419FA5B3C0E2CAD69A5 /* Debug */,
+				0659F60960B470F3572B8D4C20E13A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

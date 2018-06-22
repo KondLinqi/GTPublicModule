@@ -1,0 +1,16 @@
+PODS:
+  - GTPublicModule (0.1.0)
+
+DEPENDENCIES:
+  - GTPublicModule (from `../`)
+
+EXTERNAL SOURCES:
+  GTPublicModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTPublicModule: 25bfce2e028727d1e13ab52eed323a41b19c0199
+
+PODFILE CHECKSUM: e45fe841d4f9a049eecf7c17f85bf3ce342d8a4e
+
+COCOAPODS: 1.5.0
