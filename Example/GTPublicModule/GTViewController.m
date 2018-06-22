@@ -7,7 +7,7 @@
 //
 
 #import "GTViewController.h"
-#import <GTPublicModule/GTCategory.h>
+#import <GTPublicModule/GTPublicModule.h>
 
 @interface GTViewController ()
 
@@ -19,8 +19,7 @@
 {
     [super viewDidLoad];
 
-
-
+    
 }
 
 - (void)didReceiveMemoryWarning

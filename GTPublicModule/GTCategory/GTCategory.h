@@ -15,5 +15,4 @@
 #import "GTUIKit.h"
 #import "GTQuartzCore.h"
 
-
 #endif /* GTCategory_h */

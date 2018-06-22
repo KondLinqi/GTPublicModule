@@ -17,10 +17,20 @@
   "platforms": {
     "ios": "8.0"
   },
-  "requires_arc": true,
-  "source_files": "GTPublicModule/**/*",
   "frameworks": [
-    "UIKit",
-    "Foundation"
+    "Foundation",
+    "UIKit"
+  ],
+  "requires_arc": true,
+  "source_files": [
+    "GTPublicModule/GTPublicModule.h",
+    "GTPublicModule/GTCategory/GTCategory.h",
+    "GTPublicModule/GTCategory/Foudation/**/*.*",
+    "GTPublicModule/GTCategory/UIKit/**/*.*",
+    "GTPublicModule/GTCategory/QuartzCore/**/*.*",
+    "GTPublicModule/GTCategory/CoreLocation/**/*.*",
+    "GTPublicModule/GTCategory/MapKit/**/*.*",
+    "GTPublicModule/GTMacros/*.*",
+    "GTPublicModule/GTPublicTool/**/*.*"
   ]
 }

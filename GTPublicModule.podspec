@@ -9,13 +9,22 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
+  s.frameworks       = 'Foundation', 'UIKit'
+
   s.requires_arc = true
 
-  # 源代码
-  s.source_files = 'GTPublicModule/**/*'
+s.source_files = 'GTPublicModule/GTPublicModule.h',
+'GTPublicModule/GTCategory/GTCategory.h',
+'GTPublicModule/GTCategory/Foudation/**/*.*',
+'GTPublicModule/GTCategory/UIKit/**/*.*',
+'GTPublicModule/GTCategory/QuartzCore/**/*.*',
+'GTPublicModule/GTCategory/CoreLocation/**/*.*',
+'GTPublicModule/GTCategory/MapKit/**/*.*',
+'GTPublicModule/GTMacros/*.*',
+'GTPublicModule/GTPublicTool/**/*.*'
 
-  # 配置系统Framework
-  s.frameworks = 'UIKit', 'Foundation'
+
+
 
 
 end
