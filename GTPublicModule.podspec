@@ -13,15 +13,15 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-s.source_files = 'GTPublicModule/GTPublicModule.h',
-'GTPublicModule/GTCategory/GTCategory.h',
-'GTPublicModule/GTCategory/Foudation/**/*.*',
-'GTPublicModule/GTCategory/UIKit/**/*.*',
-'GTPublicModule/GTCategory/QuartzCore/**/*.*',
-'GTPublicModule/GTCategory/CoreLocation/**/*.*',
-'GTPublicModule/GTCategory/MapKit/**/*.*',
-'GTPublicModule/GTMacros/*.*',
-'GTPublicModule/GTPublicTool/**/*.*'
+  s.source_files = 'GTPublicModule/GTPublicModule.h',
+                   'GTPublicModule/GTCategory/GTCategory.h',
+                   'GTPublicModule/GTCategory/Foundation/**/*.*',
+                   'GTPublicModule/GTCategory/UIKit/**/*.*',
+                   'GTPublicModule/GTCategory/QuartzCore/**/*.*',
+                   'GTPublicModule/GTCategory/CoreLocation/**/*.*',
+                   'GTPublicModule/GTCategory/MapKit/**/*.*',
+                   'GTPublicModule/GTMacros/*.*',
+                   'GTPublicModule/GTPublicTool/**/*.*'
 
 
 
