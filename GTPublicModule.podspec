@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTPublicModule'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'GTPublicModule 的公共模块，包括公共方法，宏，拓展等'
   s.homepage         = 'https://github.com/liuxc123/GTPublicModule'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
